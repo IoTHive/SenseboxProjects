@@ -1,0 +1,342 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  15/Jun/2019  17:23:50
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Exe\interrupt.out
+#    Map file     =  
+#        F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\List\interrupt.map
+#    Command line =  
+#        -f C:\Users\Rajeev\AppData\Local\Temp\EWFA83.tmp
+#        ("F:\rajeev\ProjectFolder\New
+#        folder\Interrupt\Debug\Obj\atmel_start.o" "F:\rajeev\ProjectFolder\New
+#        folder\Interrupt\Debug\Obj\driver_examples.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\driver_init.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hal_atomic.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hal_delay.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hal_ext_irq.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hal_gpio.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hal_init.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hal_io.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hal_sleep.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\Interrupt\Debug\Obj\hpl_core_m0plus_base.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hpl_dmac.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hpl_eic.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hpl_gclk.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hpl_init.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hpl_pm.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\hpl_sysctrl.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\main.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\Interrupt\Debug\Obj\startup_samd21.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\Interrupt\Debug\Obj\system_samd21.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\Interrupt\Debug\Obj\utils_assert.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\utils_event.o"
+#        "F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj\utils_list.o"
+#        --no_out_extension -o "F:\rajeev\ProjectFolder\New
+#        folder\Interrupt\Debug\Exe\interrupt.out" --map
+#        "F:\rajeev\ProjectFolder\New
+#        folder\Interrupt\Debug\List\interrupt.map" --config
+#        "F:\rajeev\ProjectFolder\New
+#        folder\Interrupt\samd21a\iar\iar\samd21g18a_flash.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] { rw };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 0M, alignment = 8 { };
+"A1":  place at end of [from 0x2000'0000 to 0x2000'7fff] {
+          block CSTACK, block HEAP };
+
+  Section          Kind         Address    Size  Object
+  -------          ----         -------    ----  ------
+"A0":                                      0xb4
+  .intvec                           0x0    0xb4  <Block>
+    .intvec        const            0x0    0xb4  startup_samd21.o [1]
+                                 - 0xb4    0xb4
+
+"P1":                                     0xbc8
+  .text            ro code         0xb4   0x3f2  driver_init.o [1]
+  .text            ro code        0x4a8    0x30  hpl_init.o [1]
+  .text            ro code        0x4d8   0x1d8  hal_ext_irq.o [1]
+  .text            ro code        0x6b0    0x5c  hpl_pm.o [1]
+  .text            ro code        0x70c    0xac  hpl_sysctrl.o [1]
+  .text            ro code        0x7b8    0x44  hpl_gclk.o [1]
+  .text            ro code        0x7fc   0x2bc  hpl_eic.o [1]
+  .text            ro code        0xab8    0x7c  startup_samd21.o [1]
+  .text            ro code        0xb34     0xc  cstartup_M.o [3]
+  .text            ro code        0xb40    0x1e  cmain.o [3]
+  .text            ro code        0xb60    0x28  data_init.o [3]
+  .text            ro code        0xb88    0x68  main.o [1]
+  .text            ro code        0xbf0     0x8  exit.o [2]
+  .text            ro code        0xbf8     0x8  atmel_start.o [1]
+  .text            ro code        0xc00     0xa  cexit.o [3]
+  .text            ro code        0xc0c    0x14  exit.o [4]
+  .text            ro code        0xc20    0x3c  zero_init3.o [3]
+  .iar.init_table  const          0xc5c    0x10  - Linker created -
+  .rodata          const          0xc6c    0x10  hpl_eic.o [1]
+  .rodata          const          0xc7c     0x0  zero_init3.o [3]
+                                - 0xc7c   0xbc8
+
+"P2":                                      0x14
+  .bss             zero     0x2000'0000    0x10  hal_ext_irq.o [1]
+  .bss             zero     0x2000'0010     0x4  hpl_eic.o [1]
+                          - 0x2000'0014    0x14
+
+"A1":                                    0x2000
+  CSTACK                    0x2000'6000  0x2000  <Block>
+    CSTACK         uninit   0x2000'6000  0x2000  <Block tail>
+                          - 0x2000'8000  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0xc7c     0x3'ffff  0x3'f384
+  0x2000'0014  0x2000'5fff    0x5fec
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x14:
+          0x2000'0000  0x14
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj: [1]
+    atmel_start.o           8
+    driver_init.o       1 010
+    hal_ext_irq.o         472                16
+    hpl_eic.o             700       16        4
+    hpl_gclk.o             68
+    hpl_init.o             48
+    hpl_pm.o               92
+    hpl_sysctrl.o         172
+    main.o                104
+    startup_samd21.o      124      180
+    -------------------------------------------
+    Total:              2 798      196       20
+
+dl6M_tln.a: [2]
+    exit.o                  8
+    -------------------------------------------
+    Total:                  8
+
+rt6M_tl.a: [3]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           12
+    data_init.o            40
+    zero_init3.o           60
+    -------------------------------------------
+    Total:                152
+
+shb_l.a: [4]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    6
+    Linker created                  16    8 192
+-----------------------------------------------
+    Grand Total:        2 984      212    8 212
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base         0xc5c          --   Gb  - Linker created -
+.iar.init_table$$Limit        0xc6c          --   Gb  - Linker created -
+.intvec$$Base                   0x0          --   Gb  - Linker created -
+.intvec$$Limit                 0xb4          --   Gb  - Linker created -
+?main                         0xb41         Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'6000          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'8000          --   Gb  - Linker created -
+Dummy_Handler                 0xb31    0x4  Code  Gb  startup_samd21.o [1]
+EIC_Handler                   0x9c1   0xe0  Code  Gb  hpl_eic.o [1]
+EXTERNAL_IRQ_0_init           0x43d   0x44  Code  Gb  driver_init.o [1]
+Region$$Table$$Base           0xc5c          --   Gb  - Linker created -
+Region$$Table$$Limit          0xc6c          --   Gb  - Linker created -
+Reset_Handler                 0xac7   0x50  Code  Gb  startup_samd21.o [1]
+Switchcallback                0xbbb    0xa  Code  Gb  main.o [1]
+Switchcallback2               0xbc5    0xa  Code  Gb  main.o [1]
+__NVIC_ClearPendingIRQ        0x835   0x18  Code  Lc  hpl_eic.o [1]
+__NVIC_DisableIRQ             0x815   0x20  Code  Lc  hpl_eic.o [1]
+__NVIC_EnableIRQ              0x7fd   0x18  Code  Lc  hpl_eic.o [1]
+__cmain                       0xb41         Code  Gb  cmain.o [3]
+__exit                        0xc0d   0x14  Code  Gb  exit.o [4]
+__iar_data_init3              0xb61   0x28  Code  Gb  data_init.o [3]
+__iar_program_start           0xb35         Code  Gb  cstartup_M.o [3]
+__iar_zero_init3              0xc21   0x3c  Code  Gb  zero_init3.o [3]
+__low_level_init              0xab9    0xe  Code  Gb  startup_samd21.o [1]
+__vector_table                  0x0   0xb4  Data  Gb  startup_samd21.o [1]
+_call_main                    0xb4d         Code  Gb  cmain.o [3]
+_exit                         0xc01         Code  Gb  cexit.o [3]
+_ext_irq_enable               0x959   0x68  Code  Gb  hpl_eic.o [1]
+_ext_irq_init                 0x8d7   0x82  Code  Gb  hpl_eic.o [1]
+_gclk_enable_channel          0x409   0x24  Code  Lc  driver_init.o [1]
+_gclk_init_generators_by_fref
+                              0x7d7   0x1c  Code  Gb  hpl_gclk.o [1]
+_gpio_set_direction           0x1e9   0xb4  Code  Lc  driver_init.o [1]
+_gpio_set_level               0x29d   0x28  Code  Lc  driver_init.o [1]
+_gpio_set_pin_function        0x34f   0x66  Code  Lc  driver_init.o [1]
+_gpio_set_pin_pull_mode
+                              0x2c5   0x8a  Code  Lc  driver_init.o [1]
+_gpio_toggle_level            0xb95   0x12  Code  Lc  main.o [1]
+_init_chip                    0x4b7   0x1e  Code  Gb  hpl_init.o [1]
+_main                         0xb5b         Code  Gb  cmain.o [3]
+_map                          0xc6c   0x10  Data  Lc  hpl_eic.o [1]
+_pm_init                      0x6e1   0x26  Code  Gb  hpl_pm.o [1]
+_sysctrl_init_referenced_generators
+                              0x7a7    0xa  Code  Gb  hpl_sysctrl.o [1]
+_sysctrl_init_sources         0x759   0x4e  Code  Gb  hpl_sysctrl.o [1]
+atmel_start_init              0xbf9    0x8  Code  Gb  atmel_start.o [1]
+callback                0x2000'0010    0x4  Data  Lc  hpl_eic.o [1]
+exit                          0xbf1    0x8  Code  Gb  exit.o [2]
+ext_irq_init                  0x4d9   0x36  Code  Gb  hal_ext_irq.o [1]
+ext_irq_register              0x50f  0x12a  Code  Gb  hal_ext_irq.o [1]
+ext_irqs                0x2000'0000   0x10  Data  Lc  hal_ext_irq.o [1]
+ffs                           0x8b9   0x1e  Code  Lc  hpl_eic.o [1]
+gpio_set_pin_direction        0x3d1   0x18  Code  Lc  driver_init.o [1]
+gpio_set_pin_function         0x3c9    0x8  Code  Lc  driver_init.o [1]
+gpio_set_pin_level            0x3e9   0x18  Code  Lc  driver_init.o [1]
+gpio_set_pin_pull_mode        0x3b5   0x14  Code  Lc  driver_init.o [1]
+gpio_toggle_pin_level         0xba7   0x14  Code  Lc  main.o [1]
+hri_eic_clear_INTEN_reg
+                              0x86d    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_clear_INTFLAG_reg
+                              0x861    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_get_CTRL_reg          0x881   0x16  Code  Lc  hpl_eic.o [1]
+hri_eic_read_INTEN_reg        0x869    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_read_INTFLAG_reg
+                              0x85d    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_set_CTRL_ENABLE_bit
+                              0x871   0x10  Code  Lc  hpl_eic.o [1]
+hri_eic_set_INTEN_reg         0x865    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_wait_for_sync         0x84d   0x10  Code  Lc  hpl_eic.o [1]
+hri_eic_write_CONFIG_reg
+                              0x8ad    0xc  Code  Lc  hpl_eic.o [1]
+hri_eic_write_CTRL_reg        0x897    0xa  Code  Lc  hpl_eic.o [1]
+hri_eic_write_EVCTRL_reg
+                              0x8a5    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_write_NMICTRL_reg
+                              0x8a1    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_write_WAKEUP_reg
+                              0x8a9    0x4  Code  Lc  hpl_eic.o [1]
+hri_gclk_wait_for_sync        0x7b9   0x10  Code  Lc  hpl_gclk.o [1]
+hri_gclk_write_CLKCTRL_reg
+                               0xb5    0x4  Code  Lc  driver_init.o [1]
+hri_gclk_write_GENCTRL_reg
+                              0x7c9    0xa  Code  Lc  hpl_gclk.o [1]
+hri_gclk_write_GENDIV_reg
+                              0x7d3    0x4  Code  Lc  hpl_gclk.o [1]
+hri_nvmctrl_set_CTRLB_RWS_bf
+                              0x4a9    0xe  Code  Lc  hpl_init.o [1]
+hri_pm_set_APBASEL_APBADIV_bf
+                              0x6bd    0xc  Code  Lc  hpl_pm.o [1]
+hri_pm_set_APBBSEL_APBBDIV_bf
+                              0x6c9    0xc  Code  Lc  hpl_pm.o [1]
+hri_pm_set_APBCSEL_APBCDIV_bf
+                              0x6d5    0xc  Code  Lc  hpl_pm.o [1]
+hri_pm_set_CPUSEL_CPUDIV_bf
+                              0x6b1    0xc  Code  Lc  hpl_pm.o [1]
+hri_port_clear_DIR_reg         0xc5    0xc  Code  Lc  driver_init.o [1]
+hri_port_clear_OUT_reg         0xdd    0xc  Code  Lc  driver_init.o [1]
+hri_port_clear_PINCFG_PULLEN_bit
+                              0x1af   0x2e  Code  Lc  driver_init.o [1]
+hri_port_set_DIR_reg           0xb9    0xc  Code  Lc  driver_init.o [1]
+hri_port_set_OUT_reg           0xd1    0xc  Code  Lc  driver_init.o [1]
+hri_port_set_PINCFG_PULLEN_bit
+                              0x181   0x2e  Code  Lc  driver_init.o [1]
+hri_port_toggle_OUT_reg
+                              0xb89    0xc  Code  Lc  main.o [1]
+hri_port_write_PINCFG_PMUXEN_bit
+                              0x151   0x30  Code  Lc  driver_init.o [1]
+hri_port_write_PMUX_PMUXE_bf
+                               0xe9   0x34  Code  Lc  driver_init.o [1]
+hri_port_write_PMUX_PMUXO_bf
+                              0x11d   0x34  Code  Lc  driver_init.o [1]
+hri_port_write_WRCONFIG_reg
+                              0x1dd    0xc  Code  Lc  driver_init.o [1]
+hri_sysctrl_clear_OSC32K_ENABLE_bit
+                              0x723    0xa  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_PCLKSR_OSC8MRDY_bit
+                              0x70d    0xc  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_read_OSC8M_CALIB_bf
+                              0x745    0xa  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_read_OSC8M_FRANGE_bf
+                              0x74f    0x6  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_read_OSCULP32K_CALIB_bf
+                              0x72d    0xa  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_set_OSC32K_ENABLE_bit
+                              0x719    0xa  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_set_OSC8M_ONDEMAND_bit
+                              0x73b    0xa  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_OSC8M_reg
+                              0x755    0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_OSCULP32K_reg
+                              0x737    0x4  Code  Lc  hpl_sysctrl.o [1]
+init_mcu                      0x401    0x8  Code  Lc  driver_init.o [1]
+main                          0xbcf   0x18  Code  Gb  main.o [1]
+process_ext_irq               0x639   0x70  Code  Lc  hal_ext_irq.o [1]
+system_init                   0x481   0x26  Code  Gb  driver_init.o [1]
+
+
+[1] = F:\rajeev\ProjectFolder\New folder\Interrupt\Debug\Obj
+[2] = dl6M_tln.a
+[3] = rt6M_tl.a
+[4] = shb_l.a
+
+  2 984 bytes of readonly  code memory
+    212 bytes of readonly  data memory
+  8 212 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
