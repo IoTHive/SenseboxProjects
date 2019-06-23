@@ -1,0 +1,670 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  20/Jun/2019  14:20:33
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Exe\ESP_XBEE_MQTT.out
+#    Map file     =  
+#        F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\List\ESP_XBEE_MQTT.map
+#    Command line =  
+#        -f C:\Users\Rajeev\AppData\Local\Temp\EWE5CB.tmp
+#        ("F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\atmel_start.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\croutine.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\driver_examples.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\driver_init.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\ESP8266Client.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\event_groups.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_atomic.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_delay.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_gpio.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_init.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\hal_io.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_sleep.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_usart_async.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_usart_sync.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\heap_1.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hpl_core_m0plus_base.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hpl_dmac.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hpl_gclk.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hpl_init.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\hpl_pm.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hpl_sercom.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hpl_sysctrl.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\list.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\main.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\networkwrapper.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\port.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\portasm.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\queue.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\read.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\rtos_port.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\rtos_start.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\startup_samd21.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\stdio_io.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\stdio_start.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\system_samd21.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\tasks.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\timers.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\utils_assert.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\utils_event.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\utils_list.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\utils_ringbuffer.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\write.o"
+#        --no_out_extension -o "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Exe\ESP_XBEE_MQTT.out" --map
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\List\ESP_XBEE_MQTT.map" --config
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\samd21a\iar\iar\samd21g18a_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] { rw };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 0M, alignment = 8 { };
+"A1":  place at end of [from 0x2000'0000 to 0x2000'7fff] {
+          block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xb4
+  .intvec                             0x0    0xb4  <Block>
+    .intvec          const            0x0    0xb4  startup_samd21.o [1]
+                                   - 0xb4    0xb4
+
+"P1":                                      0x2cbc
+  .text              ro code         0xb4   0xe6a  xprintffull_nomb.o [2]
+  .text              ro code        0xf20    0x16  strchr.o [4]
+  .text              ro code        0xf38    0x48  xfail_s.o [2]
+  .text              ro code        0xf80    0x10  strlen.o [4]
+  .text              ro code        0xf90    0x18  memchr.o [4]
+  .text              ro code        0xfa8    0x6a  I64DivMod.o [4]
+  .text              ro code       0x1012   0x184  DblMul.o [3]
+  .text              ro code       0x1198    0x5c  ABImemcpy.o [4]
+  .text              ro code       0x11f4    0x32  DblCmpLe.o [3]
+  .text              ro code       0x1226    0x32  DblCmpGe.o [3]
+  .text              ro code       0x1258    0x52  DblToI32.o [3]
+  .text              ro code       0x12ac    0x34  IxxToDbl.o [3]
+  .text              ro code       0x12e0   0x1a8  DblAddSub.o [3]
+  .text              ro code       0x1488    0xe0  I32DivModFast.o [4]
+  .text              ro code       0x1568    0xc2  DblDiv.o [3]
+  .text              ro code       0x162a     0xa  abort.o [2]
+  .text              ro code       0x1634     0x2  I64DivZer.o [4]
+  .text              ro code       0x1638     0x2  IntDivZer.o [4]
+  .text              ro code       0x163c    0x14  exit.o [5]
+  .text              ro code       0x1650   0x534  hpl_sercom.o [1]
+  .text              ro code       0x1b84   0x508  driver_init.o [1]
+  .text              ro code       0x208c    0x3c  hpl_init.o [1]
+  .text              ro code       0x20c8    0xbe  hal_usart_sync.o [1]
+  .text              ro code       0x2188   0x21a  hal_usart_async.o [1]
+  .text              ro code       0x23a4    0x5c  hpl_pm.o [1]
+  .text              ro code       0x2400   0x140  hpl_sysctrl.o [1]
+  .text              ro code       0x2540    0x68  hpl_gclk.o [1]
+  .text              ro code       0x25a8    0x80  utils_ringbuffer.o [1]
+  .text              ro code       0x2628    0x1a  hal_atomic.o [1]
+  .text              ro code       0x2644   0x1a8  tasks.o [1]
+  .text              ro code       0x27ec    0x42  list.o [1]
+  .text              ro code       0x2830    0xd6  hpl_core_m0plus_base.o [1]
+  .text              ro code       0x2908    0x88  main.o [1]
+  .text              ro code       0x2990     0xc  atmel_start.o [1]
+  .text              ro code       0x299c    0x58  driver_examples.o [1]
+  .text              ro code       0x29f4    0x1c  hal_delay.o [1]
+  .text              ro code       0x2a10    0x28  printf.o [2]
+  .text              ro code       0x2a38    0x16  hal_io.o [1]
+  .text              ro code       0x2a50    0x18  stdio_start.o [1]
+  .text              ro code       0x2a68    0x2c  stdio_io.o [1]
+  .text              ro code       0x2a94    0x7c  startup_samd21.o [1]
+  .text              ro code       0x2b10     0xc  cstartup_M.o [4]
+  .text              ro code       0x2b1c    0x1e  cmain.o [4]
+  .text              ro code       0x2b3c    0x28  data_init.o [4]
+  .text              ro code       0x2b64     0x8  exit.o [2]
+  .text              ro code       0x2b6c     0xa  cexit.o [4]
+  CODE               ro code       0x2b78    0x74  portasm.o [1]
+  .text              ro code       0x2bec    0x3c  zero_init3.o [4]
+  .text              ro code       0x2c28    0x38  write.o [1]
+  .text              ro code       0x2c60    0x30  copy_init3.o [4]
+  Initializer bytes  const         0x2c90    0x28  <for P2-1>
+  .text              ro code       0x2cb8    0x24  port.o [1]
+  .iar.init_table    const         0x2cdc    0x24  - Linker created -
+  .text              ro code       0x2d00    0x1e  putchar.o [2]
+  .text              ro code       0x2d1e    0x16  xprout.o [2]
+  .rodata            const         0x2d34    0x14  main.o [1]
+  .rodata            const         0x2d48    0x10  driver_examples.o [1]
+  .rodata            const         0x2d58    0x10  xprintffull_nomb.o [2]
+  .rodata            const         0x2d68     0x8  main.o [1]
+  .rodata            const         0x2d70     0x0  zero_init3.o [4]
+  .rodata            const         0x2d70     0x0  copy_init3.o [4]
+                                 - 0x2d70  0x2cbc
+
+"P2", part 1 of 2:                           0x28
+  P2-1                        0x2000'0000    0x28  <Init block>
+    .data            inited   0x2000'0000    0x28  hpl_sercom.o [1]
+                            - 0x2000'0028    0x28
+
+"P2", part 2 of 2:                          0x8f8
+  .bss               zero     0x2000'0028   0x800  driver_init.o [1]
+  .bss               zero     0x2000'0828    0x64  tasks.o [1]
+  .bss               zero     0x2000'088c    0x50  driver_init.o [1]
+  .bss               zero     0x2000'08dc     0xc  driver_init.o [1]
+  .bss               zero     0x2000'08e8     0x4  hal_delay.o [1]
+  .bss               zero     0x2000'08ec     0x4  hpl_sercom.o [1]
+  .bss               zero     0x2000'08f0     0x4  stdio_io.o [1]
+  .bss               zero     0x2000'08f4     0x4  tasks.o [1]
+  .bss               zero     0x2000'08f8     0x4  tasks.o [1]
+  .bss               zero     0x2000'08fc     0x4  tasks.o [1]
+  .bss               zero     0x2000'0900     0x4  tasks.o [1]
+  .bss               zero     0x2000'0904     0x4  tasks.o [1]
+  .bss               zero     0x2000'0908     0x4  tasks.o [1]
+  .bss               zero     0x2000'090c     0x4  tasks.o [1]
+  .bss               zero     0x2000'0910     0x4  tasks.o [1]
+  .bss               zero     0x2000'0914     0x4  tasks.o [1]
+  .bss               zero     0x2000'0918     0x4  tasks.o [1]
+  .bss               zero     0x2000'091c     0x4  xfail_s.o [2]
+                            - 0x2000'0920   0x8f8
+
+"A1":                                      0x2000
+  CSTACK                      0x2000'6000  0x2000  <Block>
+    CSTACK           uninit   0x2000'6000  0x2000  <Block tail>
+                            - 0x2000'8000  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x2d70     0x3'ffff  0x3'd290
+  0x2000'0920  0x2000'5fff    0x56e0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x8f8:
+          0x2000'0028  0x8f8
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x28:
+               0x2c90   0x28
+    1 destination range, total size 0x28:
+          0x2000'0000   0x28
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj: [1]
+    atmel_start.o                12
+    driver_examples.o            88       16
+    driver_init.o             1 288             2 140
+    hal_atomic.o                 26
+    hal_delay.o                  28                 4
+    hal_io.o                     22
+    hal_usart_async.o           538
+    hal_usart_sync.o            190
+    hpl_core_m0plus_base.o      214
+    hpl_gclk.o                  104
+    hpl_init.o                   60
+    hpl_pm.o                     92
+    hpl_sercom.o              1 332       40       44
+    hpl_sysctrl.o               320
+    list.o                       66
+    main.o                      136       28
+    port.o                       36
+    portasm.o                   116
+    startup_samd21.o            124      180
+    stdio_io.o                   44                 4
+    stdio_start.o                24
+    tasks.o                     424               140
+    utils_ringbuffer.o          128
+    write.o                      56
+    -------------------------------------------------
+    Total:                    5 468      264    2 332
+
+dl6M_tln.a: [2]
+    abort.o                      10
+    exit.o                        8
+    printf.o                     40
+    putchar.o                    30
+    xfail_s.o                    72                 4
+    xprintffull_nomb.o        3 690       16
+    xprout.o                     22
+    -------------------------------------------------
+    Total:                    3 872       16        4
+
+m6M_tl.a: [3]
+    DblAddSub.o                 424
+    DblCmpGe.o                   50
+    DblCmpLe.o                   50
+    DblDiv.o                    194
+    DblMul.o                    388
+    DblToI32.o                   82
+    IxxToDbl.o                   52
+    -------------------------------------------------
+    Total:                    1 240
+
+rt6M_tl.a: [4]
+    ABImemcpy.o                  92
+    I32DivModFast.o             224
+    I64DivMod.o                 106
+    I64DivZer.o                   2
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 48
+    cstartup_M.o                 12
+    data_init.o                  40
+    memchr.o                     24
+    strchr.o                     22
+    strlen.o                     16
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      688
+
+shb_l.a: [5]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         28
+    Linker created                        36    8 192
+-----------------------------------------------------
+    Grand Total:             11 316      316   10 528
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0x2cdc          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x2d00          --   Gb  - Linker created -
+.intvec$$Base                   0x0          --   Gb  - Linker created -
+.intvec$$Limit                 0xb4          --   Gb  - Linker created -
+?main                        0x2b1d         Code  Gb  cmain.o [4]
+CSTACK$$Base            0x2000'6000          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'8000          --   Gb  - Linker created -
+Dummy_Handler                0x2b0d    0x4  Code  Gb  startup_samd21.o [1]
+LoadInt                       0x261   0x74  Code  Lc  xprintffull_nomb.o [2]
+PendSV_Handler               0x2b7f         Code  Gb  portasm.o [1]
+Region$$Table$$Base          0x2cdc          --   Gb  - Linker created -
+Region$$Table$$Limit         0x2d00          --   Gb  - Linker created -
+Reset_Handler                0x2aa3   0x50  Code  Gb  startup_samd21.o [1]
+SERCOM5_Handler              0x1b75    0xc  Code  Gb  hpl_sercom.o [1]
+SVCall_Handler               0x2bbd         Code  Gb  portasm.o [1]
+SysTick_Handler              0x2cb9   0x20  Code  Gb  port.o [1]
+TARGET_IO               0x2000'08dc    0xc  Data  Gb  driver_init.o [1]
+TARGET_IO_CLOCK_init         0x1f83   0x14  Code  Gb  driver_init.o [1]
+TARGET_IO_PORT_init          0x1f6f   0x14  Code  Gb  driver_init.o [1]
+TARGET_IO_init               0x1f97   0x16  Code  Gb  driver_init.o [1]
+USART_0                 0x2000'088c   0x50  Data  Gb  driver_init.o [1]
+USART_0_CLOCK_init           0x1fb5   0x14  Code  Gb  driver_init.o [1]
+USART_0_PORT_init            0x1fcd   0x14  Code  Gb  driver_init.o [1]
+USART_0_buffer          0x2000'0028  0x800  Data  Lc  driver_init.o [1]
+USART_0_example              0x29ad   0x32  Code  Gb  driver_examples.o [1]
+USART_0_init                 0x1fe1   0x1e  Code  Gb  driver_init.o [1]
+_GenldFullNoMb                0xc85  0x264  Code  Lc  xprintffull_nomb.o [2]
+_LdtobFullNoMb                0x805  0x46a  Code  Lc  xprintffull_nomb.o [2]
+_LitobFullNoMb                0x699  0x120  Code  Lc  xprintffull_nomb.o [2]
+_PrintfFullNoMb                0xb5  0x19e  Code  Gb  xprintffull_nomb.o [2]
+_Prout                       0x2d1f   0x16  Code  Gb  xprout.o [2]
+_PutcharsFullNoMb             0xee9   0x34  Code  Lc  xprintffull_nomb.o [2]
+_PutfldFullNoMb               0x2d5  0x264  Code  Lc  xprintffull_nomb.o [2]
+_PuttxtFullNoMb               0x585  0x114  Code  Lc  xprintffull_nomb.o [2]
+__NVIC_ClearPendingIRQ       0x1689   0x18  Code  Lc  hpl_sercom.o [1]
+__NVIC_DisableIRQ            0x1669   0x20  Code  Lc  hpl_sercom.o [1]
+__NVIC_EnableIRQ             0x1651   0x18  Code  Lc  hpl_sercom.o [1]
+__aeabi_cdcmple              0x11f5         Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple             0x1227         Code  Gb  DblCmpGe.o [3]
+__aeabi_d2iz                 0x1259         Code  Gb  DblToI32.o [3]
+__aeabi_d2uiz                0x127d         Code  Gb  DblToI32.o [3]
+__aeabi_ddiv                 0x1569         Code  Gb  DblDiv.o [3]
+__aeabi_dmul                 0x1013         Code  Gb  DblMul.o [3]
+__aeabi_dsub                 0x139b         Code  Gb  DblAddSub.o [3]
+__aeabi_i2d                  0x12cd         Code  Gb  IxxToDbl.o [3]
+__aeabi_idiv                 0x14b5         Code  Gb  I32DivModFast.o [4]
+__aeabi_idiv0                0x1639         Code  Gb  IntDivZer.o [4]
+__aeabi_idivmod              0x14b5         Code  Gb  I32DivModFast.o [4]
+__aeabi_ldiv0                0x1635         Code  Gb  I64DivZer.o [4]
+__aeabi_memcpy               0x1199         Code  Gb  ABImemcpy.o [4]
+__aeabi_ui2d                 0x12ad         Code  Gb  IxxToDbl.o [3]
+__aeabi_uidiv                0x14bb         Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod             0x14bb         Code  Gb  I32DivModFast.o [4]
+__aeabi_uldivmod              0xfa9         Code  Gb  I64DivMod.o [4]
+__cmain                      0x2b1d         Code  Gb  cmain.o [4]
+__exit                       0x163d   0x14  Code  Gb  exit.o [5]
+__iar_Fail_s                  0xf39   0x22  Code  Gb  xfail_s.o [2]
+__iar_copy_init3             0x2c61   0x30  Code  Gb  copy_init3.o [4]
+__iar_d2uiz                  0x1281         Code  Gb  DblToI32.o [3]
+__iar_data_init3             0x2b3d   0x28  Code  Gb  data_init.o [4]
+__iar_program_start          0x2b11         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3             0x2bed   0x3c  Code  Gb  zero_init3.o [4]
+__low_level_init             0x2a95    0xe  Code  Gb  startup_samd21.o [1]
+__vector_table                  0x0   0xb4  Data  Gb  startup_samd21.o [1]
+__write                      0x2c29   0x38  Code  Gb  write.o [1]
+_call_main                   0x2b29         Code  Gb  cmain.o [4]
+_delay_cycles                0x2901    0x6  Code  Gb  hpl_core_m0plus_base.o [1]
+_exit                        0x2b6d         Code  Gb  cexit.o [4]
+_gclk_enable_channel         0x1e33   0x2c  Code  Lc  driver_init.o [1]
+_gclk_init_generators_by_fref
+                             0x2565   0x36  Code  Gb  hpl_gclk.o [1]
+_get_cycles_for_ms           0x28db   0x12  Code  Gb  hpl_core_m0plus_base.o [1]
+_get_cycles_for_ms_internal
+                             0x2831   0xaa  Code  Lc  hpl_core_m0plus_base.o [1]
+_get_sercom_index            0x19fb   0x38  Code  Lc  hpl_sercom.o [1]
+_gpio_set_direction          0x1c89   0xb8  Code  Lc  driver_init.o [1]
+_gpio_set_level              0x1d41   0x30  Code  Lc  driver_init.o [1]
+_gpio_set_pin_function       0x1d71   0x6e  Code  Lc  driver_init.o [1]
+_init_chip                   0x209f   0x24  Code  Gb  hpl_init.o [1]
+_main                        0x2b37         Code  Gb  cmain.o [4]
+_pm_enable_bus_clock         0x1ef1   0x7e  Code  Lc  driver_init.o [1]
+_pm_get_ahb_index            0x1e5f   0x4a  Code  Lc  driver_init.o [1]
+_pm_get_apbb_index           0x1ea9   0x48  Code  Lc  driver_init.o [1]
+_pm_init                     0x23d5   0x26  Code  Gb  hpl_pm.o [1]
+_sercom5_dev            0x2000'08ec    0x4  Data  Lc  hpl_sercom.o [1]
+_sercom_get_hardware_index
+                             0x18f3    0xa  Code  Lc  hpl_sercom.o [1]
+_sercom_get_irq_num          0x1b65   0x10  Code  Lc  hpl_sercom.o [1]
+_sercom_init_irq_param       0x1a33    0xe  Code  Lc  hpl_sercom.o [1]
+_sercom_usart_interrupt_handler
+                             0x1953   0xa8  Code  Lc  hpl_sercom.o [1]
+_sysctrl_init_referenced_generators
+                             0x24b9   0x76  Code  Gb  hpl_sysctrl.o [1]
+_sysctrl_init_sources        0x2487   0x32  Code  Gb  hpl_sysctrl.o [1]
+_usart_async_enable          0x1875    0xc  Code  Gb  hpl_sercom.o [1]
+_usart_async_enable_byte_sent_irq
+                             0x18db    0xc  Code  Gb  hpl_sercom.o [1]
+_usart_async_enable_tx_done_irq
+                             0x18e7    0xc  Code  Gb  hpl_sercom.o [1]
+_usart_async_init            0x1821   0x48  Code  Gb  hpl_sercom.o [1]
+_usart_async_set_irq_state
+                             0x18fd   0x56  Code  Gb  hpl_sercom.o [1]
+_usart_async_write_byte
+                             0x1895   0x14  Code  Gb  hpl_sercom.o [1]
+_usart_init                  0x1a41  0x112  Code  Lc  hpl_sercom.o [1]
+_usart_sync_enable           0x1869    0xc  Code  Gb  hpl_sercom.o [1]
+_usart_sync_init             0x1811   0x10  Code  Gb  hpl_sercom.o [1]
+_usart_sync_is_byte_received
+                             0x18cf    0xc  Code  Gb  hpl_sercom.o [1]
+_usart_sync_is_ready_to_send
+                             0x18b7    0xc  Code  Gb  hpl_sercom.o [1]
+_usart_sync_is_transmit_done
+                             0x18c3    0xc  Code  Gb  hpl_sercom.o [1]
+_usart_sync_read_byte        0x18a9    0xe  Code  Gb  hpl_sercom.o [1]
+_usart_sync_write_byte       0x1881   0x14  Code  Gb  hpl_sercom.o [1]
+_usarts                 0x2000'0000   0x28  Data  Lc  hpl_sercom.o [1]
+abort                        0x162b    0xa  Code  Gb  abort.o [2]
+atmel_start_init             0x2991    0xc  Code  Gb  atmel_start.o [1]
+atomic_enter_critical        0x2629    0xe  Code  Gb  hal_atomic.o [1]
+atomic_leave_critical        0x2637    0xc  Code  Gb  hal_atomic.o [1]
+delay_ms                     0x29f5   0x18  Code  Gb  hal_delay.o [1]
+err_cb                       0x29a1    0xc  Code  Lc  driver_examples.o [1]
+exit                         0x2b65    0x8  Code  Gb  exit.o [2]
+gpio_set_pin_direction       0x1def   0x1e  Code  Lc  driver_init.o [1]
+gpio_set_pin_function        0x1ddf   0x10  Code  Lc  driver_init.o [1]
+gpio_set_pin_level           0x1e0d   0x1e  Code  Lc  driver_init.o [1]
+hardware                0x2000'08e8    0x4  Data  Lc  hal_delay.o [1]
+hri_gclk_get_STATUS_SYNCBUSY_bit
+                             0x2401   0x14  Code  Lc  hpl_sysctrl.o [1]
+hri_gclk_wait_for_sync       0x2541   0x10  Code  Lc  hpl_gclk.o [1]
+hri_gclk_write_CLKCTRL_reg
+                             0x1b85    0x4  Code  Lc  driver_init.o [1]
+hri_gclk_write_CLKCTRL_reg
+                             0x2415    0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_gclk_write_GENCTRL_reg
+                             0x2551   0x10  Code  Lc  hpl_gclk.o [1]
+hri_gclk_write_GENDIV_reg
+                             0x2561    0x4  Code  Lc  hpl_gclk.o [1]
+hri_nvmctrl_set_CTRLB_RWS_bf
+                             0x208d   0x12  Code  Lc  hpl_init.o [1]
+hri_pm_set_APBASEL_APBADIV_bf
+                             0x23b1    0xc  Code  Lc  hpl_pm.o [1]
+hri_pm_set_APBBSEL_APBBDIV_bf
+                             0x23bd    0xc  Code  Lc  hpl_pm.o [1]
+hri_pm_set_APBCSEL_APBCDIV_bf
+                             0x23c9    0xc  Code  Lc  hpl_pm.o [1]
+hri_pm_set_CPUSEL_CPUDIV_bf
+                             0x23a5    0xc  Code  Lc  hpl_pm.o [1]
+hri_port_clear_DIR_reg       0x1b9b   0x12  Code  Lc  driver_init.o [1]
+hri_port_clear_OUT_reg       0x1bbf   0x12  Code  Lc  driver_init.o [1]
+hri_port_set_DIR_reg         0x1b89   0x12  Code  Lc  driver_init.o [1]
+hri_port_set_OUT_reg         0x1bad   0x12  Code  Lc  driver_init.o [1]
+hri_port_write_PINCFG_PMUXEN_bit
+                             0x1c43   0x34  Code  Lc  driver_init.o [1]
+hri_port_write_PMUX_PMUXE_bf
+                             0x1bd1   0x38  Code  Lc  driver_init.o [1]
+hri_port_write_PMUX_PMUXO_bf
+                             0x1c09   0x3a  Code  Lc  driver_init.o [1]
+hri_port_write_WRCONFIG_reg
+                             0x1c77   0x12  Code  Lc  driver_init.o [1]
+hri_sercomusart_clear_CTRLA_ENABLE_bit
+                             0x17a5   0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_clear_INTEN_DRE_bit
+                             0x172f    0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_clear_INTEN_TXC_bit
+                             0x175d    0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_clear_STATUS_reg
+                             0x1809    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_clear_interrupt_ERROR_bit
+                             0x1703    0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_CTRLA_reg
+                             0x17bb   0x14  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_INTEN_DRE_bit
+                             0x170f    0xa  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_INTEN_TXC_bit
+                             0x173b    0xc  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_interrupt_DRE_bit
+                             0x16cd    0xa  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_interrupt_ERROR_bit
+                             0x16ef   0x14  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_interrupt_RXC_bit
+                             0x16e3    0xc  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_interrupt_TXC_bit
+                             0x16d7    0xc  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_is_syncing
+                             0x16b9   0x14  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_read_DATA_reg
+                             0x17ff    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_read_STATUS_reg
+                             0x180d    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_set_CTRLA_ENABLE_bit
+                             0x178f   0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_set_INTEN_DRE_bit
+                             0x1709    0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_set_INTEN_TXC_bit
+                             0x1735    0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_wait_for_sync
+                             0x16ad    0xc  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_BAUD_reg
+                             0x17f3    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_CTRLA_reg
+                             0x17cf   0x12  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_CTRLB_reg
+                             0x17e1   0x12  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_DATA_reg
+                             0x17fb    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_DBGCTRL_reg
+                             0x1803    0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_INTEN_DRE_bit
+                             0x1719   0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_INTEN_ERROR_bit
+                             0x1779   0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_INTEN_RXC_bit
+                             0x1763   0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_INTEN_TXC_bit
+                             0x1747   0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_RXPL_reg
+                             0x17f7    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sysctrl_clear_OSC32K_ENABLE_bit
+                             0x2447    0xa  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_DFLLCTRL_MODE_bit
+                             0x2461   0x1a  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_PCLKSR_DFLLRDY_bit
+                             0x2425    0xc  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_PCLKSR_XOSC32KRDY_bit
+                             0x2419    0xc  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_PCLKSR_reg
+                             0x2431    0x8  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_read_OSCULP32K_CALIB_bf
+                             0x2451    0xc  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_set_OSC32K_ENABLE_bit
+                             0x243d    0xa  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_DFLLCTRL_reg
+                             0x247b    0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_DFLLMUL_reg
+                             0x2483    0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_DFLLVAL_reg
+                             0x247f    0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_OSCULP32K_reg
+                             0x245d    0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_XOSC32K_reg
+                             0x2439    0x4  Code  Lc  hpl_sysctrl.o [1]
+init_mcu                     0x1e2b    0x8  Code  Lc  driver_init.o [1]
+io_write                     0x2a39   0x16  Code  Gb  hal_io.o [1]
+main                         0x2909   0x88  Code  Gb  main.o [1]
+memchr                        0xf91   0x18  Code  Gb  memchr.o [4]
+printf                       0x2a11   0x28  Code  Gb  printf.o [2]
+prvResetNextTaskUnblockTime
+                             0x27bd   0x26  Code  Lc  tasks.o [1]
+putchar                      0x2d01   0x1e  Code  Gb  putchar.o [2]
+pxCurrentTCB            0x2000'08f4    0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x2000'08f8    0x4  Data  Lc  tasks.o [1]
+pxOverflowDelayedTaskList
+                        0x2000'08fc    0x4  Data  Lc  tasks.o [1]
+pxReadyTasksLists       0x2000'0828   0x64  Data  Lc  tasks.o [1]
+ringbuffer_get               0x25cd   0x28  Code  Gb  utils_ringbuffer.o [1]
+ringbuffer_init              0x25a9   0x24  Code  Gb  utils_ringbuffer.o [1]
+ringbuffer_num               0x2621    0x8  Code  Gb  utils_ringbuffer.o [1]
+ringbuffer_put               0x25f5   0x2c  Code  Gb  utils_ringbuffer.o [1]
+rx_cb                        0x299f    0x2  Code  Lc  driver_examples.o [1]
+scale                         0x7b9   0x44  Code  Lc  xprintffull_nomb.o [2]
+sec_hand                0x2000'091c    0x4  Data  Lc  xfail_s.o [2]
+stdio_io                0x2000'08f0    0x4  Data  Lc  stdio_io.o [1]
+stdio_io_init                0x2a69    0x6  Code  Gb  stdio_io.o [1]
+stdio_io_write               0x2a6f   0x22  Code  Gb  stdio_io.o [1]
+stdio_redirect_init          0x2a51   0x12  Code  Gb  stdio_start.o [1]
+strchr                        0xf21    0x2  Code  Gb  strchr.o [4]
+strlen                        0xf81   0x10  Code  Gb  strlen.o [4]
+system_init                  0x2049   0x44  Code  Gb  driver_init.o [1]
+tx_cb_USART_0                0x299d    0x2  Code  Lc  driver_examples.o [1]
+ulSetInterruptMaskFromISR
+                             0x2bd9         Code  Gb  portasm.o [1]
+usart_async_enable           0x21f5   0x10  Code  Gb  hal_usart_async.o [1]
+usart_async_get_io_descriptor
+                             0x2205    0x8  Code  Gb  hal_usart_async.o [1]
+usart_async_init             0x2189   0x52  Code  Gb  hal_usart_async.o [1]
+usart_async_read             0x22bd   0x4c  Code  Lc  hal_usart_async.o [1]
+usart_async_register_callback
+                             0x220d   0x76  Code  Gb  hal_usart_async.o [1]
+usart_async_write            0x2283   0x3a  Code  Lc  hal_usart_async.o [1]
+usart_error                  0x2389   0x1a  Code  Lc  hal_usart_async.o [1]
+usart_fill_rx_buffer         0x2365   0x24  Code  Lc  hal_usart_async.o [1]
+usart_process_byte_sent
+                             0x2309   0x42  Code  Lc  hal_usart_async.o [1]
+usart_sync_enable            0x20f9   0x10  Code  Gb  hal_usart_sync.o [1]
+usart_sync_get_io_descriptor
+                             0x2109    0x8  Code  Gb  hal_usart_sync.o [1]
+usart_sync_init              0x20c9   0x28  Code  Gb  hal_usart_sync.o [1]
+usart_sync_read              0x2157   0x30  Code  Lc  hal_usart_sync.o [1]
+usart_sync_write             0x2111   0x46  Code  Lc  hal_usart_sync.o [1]
+usart_transmission_complete
+                             0x234b   0x1a  Code  Lc  hal_usart_async.o [1]
+uxListRemove                 0x2805   0x2a  Code  Gb  list.o [1]
+uxPendedTicks           0x2000'0908    0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x2000'0918    0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x2000'0904    0x4  Data  Lc  tasks.o [1]
+vClearInterruptMaskFromISR
+                             0x2be1         Code  Gb  portasm.o [1]
+vListInsertEnd               0x27ed   0x18  Code  Gb  list.o [1]
+vPortStartFirstTask          0x2bbf         Code  Gb  portasm.o [1]
+vSetMSP                      0x2b79         Code  Gb  portasm.o [1]
+vTaskSwitchContext           0x272d   0x62  Code  Gb  tasks.o [1]
+xNextTaskUnblockTime    0x2000'0914    0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x2000'0910    0x4  Data  Lc  tasks.o [1]
+xTaskIncrementTick           0x2645   0xe4  Code  Gb  tasks.o [1]
+xTickCount              0x2000'0900    0x4  Data  Lc  tasks.o [1]
+xYieldPending           0x2000'090c    0x4  Data  Lc  tasks.o [1]
+
+
+[1] = F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj
+[2] = dl6M_tln.a
+[3] = m6M_tl.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  11 316 bytes of readonly  code memory
+     316 bytes of readonly  data memory
+  10 528 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
