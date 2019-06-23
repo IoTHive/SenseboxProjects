@@ -1,0 +1,65 @@
+#include <atmel_start.h>
+#include "circularuart.h"
+long unsigned int network_gettime_ms(void) {
+	return (xTaskGetTickCount() * portTICK_PERIOD_MS);
+}
+
+int main(void)
+{
+    uint8_t dataBuf[] = "AT+CWMODE=1\r\n";
+    struct io_descriptor *io;
+    struct io_descriptor *stdio;
+    uint8_t x;
+    uint32_t num = 0;
+
+	/* Initializes MCU, drivers and middleware */
+	atmel_start_init();
+        delay_ms(1000);
+        ESP82_Init(115200, 1, network_gettime_ms);
+        USART_0_example();
+        usart_async_enable(&USART_0);
+        usart_sync_get_io_descriptor(&TARGET_IO, &stdio);
+        usart_async_get_io_descriptor(&USART_0, &io);
+        //io_write(io, dataBuf, sizeof(dataBuf));
+	/* Replace with your application code */
+//FREERTOS_V823_0_example();
+	while (1) 
+        {
+          #if 1 /* thIS CODE IS for testing the connection */
+          
+           io_read(stdio, &x, 1);
+           delay_ms(10);
+           io_write(io, &x, 1);
+           delay_ms(10);
+          if(CircularUART_GetUnreadCount() != 0)
+          {
+            while((CircularBuffer_popFrontByte(&rxBufferObject, &x))) 
+            {
+                    printf("%c",x);
+            } 
+         }
+        #endif
+#if 0
+           delay_ms(1000);
+          if(CircularUART_GetUnreadCount() != 0)
+          {
+            while((CircularBuffer_popFrontByte(&rxBufferObject, &x))) 
+            {
+                    printf("%c",x);
+            } 
+            printf("scan cycle - %d\n\r",num++);
+             
+
+          }
+          //io_write(io, dataBuf, sizeof(dataBuf)-1);
+          ESP82_sendCmd(dataBuf, sizeof(dataBuf)-1);
+#endif
+	}
+
+}
+void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName)
+{
+  while(1);
+  
+}
+

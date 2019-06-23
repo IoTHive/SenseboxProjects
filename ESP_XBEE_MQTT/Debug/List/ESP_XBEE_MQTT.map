@@ -1,0 +1,1065 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  23/Jun/2019  21:43:56
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Exe\ESP_XBEE_MQTT.out
+#    Map file     =  
+#        F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\List\ESP_XBEE_MQTT.map
+#    Command line =  
+#        -f C:\Users\Rajeev\AppData\Local\Temp\EWE83E.tmp
+#        ("F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\atmel_start.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\circularbuffer.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\circularuart.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\croutine.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\driver_examples.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\driver_init.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\ESP8266Client.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\event_groups.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_atomic.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_delay.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_gpio.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_init.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\hal_io.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_sleep.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_usart_async.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hal_usart_sync.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\heap_1.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hpl_core_m0plus_base.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hpl_dmac.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hpl_gclk.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hpl_init.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\hpl_pm.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hpl_sercom.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\hpl_sysctrl.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\list.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\main.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\MQTTConnectClient.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\MQTTConnectServer.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\MQTTDeserializePublish.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\MQTTFormat.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\MQTTPacket.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\MQTTSerializePublish.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\MQTTSubscribeClient.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\MQTTSubscribeServer.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\MQTTUnsubscribeClient.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\MQTTUnsubscribeServer.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\networkwrapper.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\port.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\portasm.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\queue.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\read.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\rtos_port.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\rtos_start.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\startup_samd21.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\stdio_io.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\stdio_start.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\system_samd21.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\tasks.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\timers.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\transport.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\utils_assert.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\utils_event.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\utils_list.o"
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Obj\utils_ringbuffer.o"
+#        "F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj\write.o"
+#        --no_out_extension -o "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\Exe\ESP_XBEE_MQTT.out" --map
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\Debug\List\ESP_XBEE_MQTT.map" --config
+#        "F:\rajeev\ProjectFolder\New
+#        folder\ESP_XBEE_MQTT\samd21a\iar\iar\samd21g18a_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] { rw };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 0M, alignment = 8 { };
+"A1":  place at end of [from 0x2000'0000 to 0x2000'7fff] {
+          block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xb4
+  .intvec                             0x0    0xb4  <Block>
+    .intvec          const            0x0    0xb4  startup_samd21.o [1]
+                                   - 0xb4    0xb4
+
+"P1":                                      0x4f43
+  .text              ro code         0xb4   0x8ac  ESP8266Client.o [1]
+  .text              ro code        0x960   0x21a  hal_usart_async.o [1]
+  .text              ro code        0xb7a    0x2c  hal_io.o [1]
+  .text              ro code        0xba6     0xa  xsprout.o [2]
+  .text              ro code        0xbb0    0xbc  circularuart.o [1]
+  .text              ro code        0xc6c    0x28  printf.o [2]
+  .text              ro code        0xc94    0x32  strstr.o [2]
+  .text              ro code        0xcc6    0x28  memcmp.o [4]
+  .text              ro code        0xcf0    0x98  strcmp.o [4]
+  .text              ro code        0xd88    0x10  strlen.o [4]
+  .text              ro code        0xd98   0x870  tasks.o [1]
+  .text              ro code       0x1608    0x40  sprintf.o [2]
+  .text              ro code       0x1648    0x18  memchr.o [4]
+  .text              ro code       0x1660   0x194  iar_Stoulx.o [2]
+  .text              ro code       0x17f4    0x5c  ABImemcpy.o [4]
+  .text              ro code       0x1850    0x80  utils_ringbuffer.o [1]
+  .text              ro code       0x18d0   0x534  hpl_sercom.o [1]
+  .text              ro code       0x1e04    0x1a  hal_atomic.o [1]
+  .text              ro code       0x1e20   0x2a4  circularbuffer.o [1]
+  .text              ro code       0x20c4   0x51c  xprintfsmall_nomb.o [2]
+  .text              ro code       0x25e0    0x1a  strchr.o [4]
+  .text              ro code       0x25fc    0xec  port.o [1]
+  .text              ro code       0x26e8    0x9c  list.o [1]
+  .text              ro code       0x2784   0x3ac  timers.o [1]
+  .text              ro code       0x2b30   0x1e0  main.o [1]
+  .text              ro code       0x2d10    0x70  heap_1.o [1]
+  .text              ro code       0x2d80    0x52  ABImemset.o [4]
+  .text              ro code       0x2dd2    0xe0  I32DivModFast.o [4]
+  .text              ro code       0x2eb4    0x24  ABIassert.o [5]
+  .text              ro code       0x2ed8    0x48  xfail_s.o [2]
+  CODE               ro code       0x2f20    0x74  portasm.o [1]
+  .text              ro code       0x2f94   0x67c  queue.o [1]
+  .text              ro code       0x3610    0xf4  transport.o [1]
+  .text              ro code       0x3704   0x1e4  networkwrapper.o [1]
+  .text              ro code       0x38e8   0x2b0  MQTTConnectClient.o [1]
+  .text              ro code       0x3b98   0x2fc  MQTTPacket.o [1]
+  .text              ro code       0x3e94    0xe8  MQTTSerializePublish.o [1]
+  .text              ro code       0x3f7c     0xc  atmel_start.o [1]
+  .text              ro code       0x3f88    0x1c  hal_delay.o [1]
+  .text              ro code       0x3fa4    0xb0  driver_examples.o [1]
+  .text              ro code       0x4054    0xbe  hal_usart_sync.o [1]
+  .text              ro code       0x4114     0x2  IntDivZer.o [4]
+  .text              ro code       0x4116     0xa  abort.o [2]
+  .text              ro code       0x4120    0x74  strcpy.o [4]
+  .text              ro code       0x4194   0x504  driver_init.o [1]
+  .text              ro code       0x4698    0x18  stdio_start.o [1]
+  .text              ro code       0x46b0    0xd6  hpl_core_m0plus_base.o [1]
+  .text              ro code       0x4788    0x14  exit.o [5]
+  .text              ro code       0x479c    0x3c  hpl_init.o [1]
+  .text              ro code       0x47d8    0x2c  stdio_io.o [1]
+  .text              ro code       0x4804    0x5c  hpl_pm.o [1]
+  .text              ro code       0x4860   0x140  hpl_sysctrl.o [1]
+  .text              ro code       0x49a0    0x68  hpl_gclk.o [1]
+  .text              ro code       0x4a08    0x7c  startup_samd21.o [1]
+  .text              ro code       0x4a84     0xc  cstartup_M.o [4]
+  .text              ro code       0x4a90    0x1e  cmain.o [4]
+  .text              ro code       0x4ab0    0x28  data_init.o [4]
+  .text              ro code       0x4ad8     0x8  exit.o [2]
+  .text              ro code       0x4ae0     0xa  cexit.o [4]
+  .rodata            const         0x4aec    0x58  main.o [1]
+  .rodata            const         0x4b44    0x50  circularbuffer.o [1]
+  .rodata            const         0x4b94    0x48  transport.o [1]
+  .text              ro code       0x4bdc    0x3c  zero_init3.o [4]
+  .text              ro code       0x4c18    0x3c  packbits_init_single.o [4]
+  .text              ro code       0x4c54    0x38  write.o [1]
+  .rodata            const         0x4c8c    0x30  transport.o [1]
+  .rodata            const         0x4cbc    0x28  circularbuffer.o [1]
+  .rodata            const         0x4ce4    0x24  transport.o [1]
+  .iar.init_table    const         0x4d08    0x20  - Linker created -
+  .rodata            const         0x4d28    0x20  ESP8266Client.o [1]
+  .text              ro code       0x4d48    0x1e  putchar.o [2]
+  .rodata            const         0x4d68    0x1c  ESP8266Client.o [1]
+  .rodata            const         0x4d84    0x18  ESP8266Client.o [1]
+  .rodata            const         0x4d9c    0x18  ESP8266Client.o [1]
+  .rodata            const         0x4db4    0x18  main.o [1]
+  .rodata            const         0x4dcc    0x18  main.o [1]
+  .text              ro code       0x4de4    0x16  xprout.o [2]
+  .rodata            const         0x4dfc    0x14  ESP8266Client.o [1]
+  .rodata            const         0x4e10    0x14  ESP8266Client.o [1]
+  .rodata            const         0x4e24    0x14  main.o [1]
+  .rodata            const         0x4e38    0x10  circularbuffer.o [1]
+  .rodata            const         0x4e48    0x10  circularbuffer.o [1]
+  .rodata            const         0x4e58    0x10  driver_examples.o [1]
+  .rodata            const         0x4e68    0x10  ESP8266Client.o [1]
+  .rodata            const         0x4e78    0x10  ESP8266Client.o [1]
+  .rodata            const         0x4e88    0x10  ESP8266Client.o [1]
+  .rodata            const         0x4e98    0x10  ESP8266Client.o [1]
+  .rodata            const         0x4ea8    0x10  networkwrapper.o [1]
+  .rodata            const         0x4eb8    0x10  networkwrapper.o [1]
+  .rodata            const         0x4ec8     0xc  ESP8266Client.o [1]
+  .rodata            const         0x4ed4     0xc  ESP8266Client.o [1]
+  .rodata            const         0x4ee0     0xc  ESP8266Client.o [1]
+  .rodata            const         0x4eec     0xc  ESP8266Client.o [1]
+  .rodata            const         0x4ef8     0xc  ESP8266Client.o [1]
+  .rodata            const         0x4f04     0x8  ESP8266Client.o [1]
+  .rodata            const         0x4f0c     0x8  ESP8266Client.o [1]
+  .rodata            const         0x4f14     0x8  ESP8266Client.o [1]
+  .rodata            const         0x4f1c     0x8  ESP8266Client.o [1]
+  .rodata            const         0x4f24     0x8  ESP8266Client.o [1]
+  .rodata            const         0x4f2c     0x8  ESP8266Client.o [1]
+  .rodata            const         0x4f34     0x8  main.o [1]
+  .rodata            const         0x4f3c     0x8  main.o [1]
+  .rodata            const         0x4f44     0x8  MQTTConnectClient.o [1]
+  .rodata            const         0x4f4c     0x8  MQTTConnectClient.o [1]
+  .rodata            const         0x4f54     0x8  tasks.o [1]
+  .rodata            const         0x4f5c     0x8  timers.o [1]
+  .rodata            const         0x4f64     0x4  ESP8266Client.o [1]
+  .rodata            const         0x4f68     0x4  ESP8266Client.o [1]
+  .rodata            const         0x4f6c     0x4  MQTTConnectClient.o [1]
+  .rodata            const         0x4f70     0x4  MQTTConnectClient.o [1]
+  .rodata            const         0x4f74     0x4  MQTTConnectClient.o [1]
+  .rodata            const         0x4f78     0x4  MQTTConnectClient.o [1]
+  .rodata            const         0x4f7c     0x4  MQTTPacket.o [1]
+  .rodata            const         0x4f80     0x4  MQTTSerializePublish.o [1]
+  .rodata            const         0x4f84     0x0  zero_init3.o [4]
+  .rodata            const         0x4f84     0x0  packbits_init_single.o [4]
+  Initializer bytes  const         0x4f84    0x73  <for P2-1>
+                                 - 0x4ff7  0x4f43
+
+"P2", part 1 of 2:                           0x88
+  P2-1                        0x2000'0000    0x88  <Init block>
+    .data            inited   0x2000'0000     0x4  ESP8266Client.o [1]
+    .data            inited   0x2000'0004     0x4  ESP8266Client.o [1]
+    .data            inited   0x2000'0008     0x4  ESP8266Client.o [1]
+    .data            inited   0x2000'000c     0x4  ESP8266Client.o [1]
+    .data            inited   0x2000'0010     0x4  ESP8266Client.o [1]
+    .data            inited   0x2000'0014     0x4  ESP8266Client.o [1]
+    .data            inited   0x2000'0018     0x4  ESP8266Client.o [1]
+    .data            inited   0x2000'001c     0x4  ESP8266Client.o [1]
+    .data            inited   0x2000'0020     0x4  ESP8266Client.o [1]
+    .data            inited   0x2000'0024     0x4  ESP8266Client.o [1]
+    .data            inited   0x2000'0028     0x4  ESP8266Client.o [1]
+    .data            inited   0x2000'002c     0x4  ESP8266Client.o [1]
+    .data            inited   0x2000'0030    0x28  hpl_sercom.o [1]
+    .data            inited   0x2000'0058     0x8  main.o [1]
+    .data            inited   0x2000'0060    0x20  networkwrapper.o [1]
+    .data            inited   0x2000'0080     0x4  port.o [1]
+    .data            inited   0x2000'0084     0x2  networkwrapper.o [1]
+    .data            inited   0x2000'0086     0x2  networkwrapper.o [1]
+                            - 0x2000'0088    0x88
+
+"P2", part 2 of 2:                         0x54c0
+  .bss               zero     0x2000'0088  0x5000  heap_1.o [1]
+  .bss               zero     0x2000'5088    0x80  ESP8266Client.o [1]
+  .bss               zero     0x2000'5108    0x80  ESP8266Client.o [1]
+  .bss               zero     0x2000'5188    0x80  ESP8266Client.o [1]
+  .bss               zero     0x2000'5208    0x80  ESP8266Client.o [1]
+  .bss               zero     0x2000'5288    0x80  networkwrapper.o [1]
+  .bss               zero     0x2000'5308    0x64  tasks.o [1]
+  .bss               zero     0x2000'536c    0x50  driver_init.o [1]
+  .bss               zero     0x2000'53bc    0x40  driver_init.o [1]
+  .bss               zero     0x2000'53fc    0x14  tasks.o [1]
+  .bss               zero     0x2000'5410    0x14  tasks.o [1]
+  .bss               zero     0x2000'5424    0x14  tasks.o [1]
+  .bss               zero     0x2000'5438    0x14  tasks.o [1]
+  .bss               zero     0x2000'544c    0x14  timers.o [1]
+  .bss               zero     0x2000'5460    0x14  timers.o [1]
+  .bss               zero     0x2000'5474    0x10  circularuart.o [1]
+  .bss               zero     0x2000'5484    0x10  circularuart.o [1]
+  .bss               zero     0x2000'5494     0xc  driver_init.o [1]
+  .bss               zero     0x2000'54a0     0x4  driver_examples.o [1]
+  .bss               zero     0x2000'54a4     0x4  driver_examples.o [1]
+  .bss               zero     0x2000'54a8     0x4  ESP8266Client.o [1]
+  .bss               zero     0x2000'54ac     0x4  ESP8266Client.o [1]
+  .bss               zero     0x2000'54b0     0x4  ESP8266Client.o [1]
+  .bss               zero     0x2000'54b4     0x4  ESP8266Client.o [1]
+  .bss               zero     0x2000'54b8     0x4  ESP8266Client.o [1]
+  .bss               zero     0x2000'54bc     0x4  ESP8266Client.o [1]
+  .bss               zero     0x2000'54c0     0x4  hal_delay.o [1]
+  .bss               zero     0x2000'54c4     0x4  heap_1.o [1]
+  .bss               zero     0x2000'54c8     0x4  heap_1.o [1]
+  .bss               zero     0x2000'54cc     0x4  hpl_sercom.o [1]
+  .bss               zero     0x2000'54d0     0x4  MQTTPacket.o [1]
+  .bss               zero     0x2000'54d4     0x4  networkwrapper.o [1]
+  .bss               zero     0x2000'54d8     0x4  networkwrapper.o [1]
+  .bss               zero     0x2000'54dc     0x4  networkwrapper.o [1]
+  .bss               zero     0x2000'54e0     0x4  networkwrapper.o [1]
+  .bss               zero     0x2000'54e4     0x4  stdio_io.o [1]
+  .bss               zero     0x2000'54e8     0x4  tasks.o [1]
+  .bss               zero     0x2000'54ec     0x4  tasks.o [1]
+  .bss               zero     0x2000'54f0     0x4  tasks.o [1]
+  .bss               zero     0x2000'54f4     0x4  tasks.o [1]
+  .bss               zero     0x2000'54f8     0x4  tasks.o [1]
+  .bss               zero     0x2000'54fc     0x4  tasks.o [1]
+  .bss               zero     0x2000'5500     0x4  tasks.o [1]
+  .bss               zero     0x2000'5504     0x4  tasks.o [1]
+  .bss               zero     0x2000'5508     0x4  tasks.o [1]
+  .bss               zero     0x2000'550c     0x4  tasks.o [1]
+  .bss               zero     0x2000'5510     0x4  tasks.o [1]
+  .bss               zero     0x2000'5514     0x4  tasks.o [1]
+  .bss               zero     0x2000'5518     0x4  tasks.o [1]
+  .bss               zero     0x2000'551c     0x4  timers.o [1]
+  .bss               zero     0x2000'5520     0x4  timers.o [1]
+  .bss               zero     0x2000'5524     0x4  timers.o [1]
+  .bss               zero     0x2000'5528     0x4  timers.o [1]
+  .bss               zero     0x2000'552c     0x4  transport.o [1]
+  .bss               zero     0x2000'5530     0x4  transport.o [1]
+  .bss               zero     0x2000'5534     0x4  transport.o [1]
+  .bss               zero     0x2000'5538     0x4  xfail_s.o [2]
+  .bss               zero     0x2000'553c     0x1  circularuart.o [1]
+  .bss               zero     0x2000'553d     0x1  ESP8266Client.o [1]
+  .bss               zero     0x2000'553e     0x1  ESP8266Client.o [1]
+  .bss               zero     0x2000'553f     0x1  ESP8266Client.o [1]
+  .bss               zero     0x2000'5540     0x1  ESP8266Client.o [1]
+  .bss               zero     0x2000'5541     0x1  ESP8266Client.o [1]
+  .bss               zero     0x2000'5542     0x1  ESP8266Client.o [1]
+  .bss               zero     0x2000'5543     0x1  ESP8266Client.o [1]
+  .bss               zero     0x2000'5544     0x1  ESP8266Client.o [1]
+  .bss               zero     0x2000'5545     0x1  main.o [1]
+  .bss               zero     0x2000'5546     0x1  networkwrapper.o [1]
+                            - 0x2000'5547  0x54bf
+
+"A1":                                      0x2000
+  CSTACK                      0x2000'6000  0x2000  <Block>
+    CSTACK           uninit   0x2000'6000  0x2000  <Block tail>
+                            - 0x2000'8000  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x4ff7     0x3'ffff  0x3'b009
+  0x2000'5548  0x2000'5fff     0xab8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x54bf:
+          0x2000'0088  0x54bf
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x73 (84% of destination):
+               0x4f84    0x73
+    1 destination range, total size 0x88:
+          0x2000'0000    0x88
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj: [1]
+    ESP8266Client.o           2 220      368      592
+    MQTTConnectClient.o         688       32
+    MQTTPacket.o                764        4        4
+    MQTTSerializePublish.o      232        4
+    atmel_start.o                12
+    circularbuffer.o            676      152
+    circularuart.o              188                33
+    driver_examples.o           176       16        8
+    driver_init.o             1 284               156
+    hal_atomic.o                 26
+    hal_delay.o                  28                 4
+    hal_io.o                     44
+    hal_usart_async.o           538
+    hal_usart_sync.o            190
+    heap_1.o                    112            20 488
+    hpl_core_m0plus_base.o      214
+    hpl_gclk.o                  104
+    hpl_init.o                   60
+    hpl_pm.o                     92
+    hpl_sercom.o              1 332       34       44
+    hpl_sysctrl.o               320
+    list.o                      156
+    main.o                      480      179        9
+    networkwrapper.o            484       63      181
+    port.o                      236        3        4
+    portasm.o                   116
+    queue.o                   1 660
+    startup_samd21.o            124      180
+    stdio_io.o                   44                 4
+    stdio_start.o                24
+    tasks.o                   2 160        8      232
+    timers.o                    940        8       56
+    transport.o                 244      156       12
+    utils_ringbuffer.o          128
+    write.o                      56
+    -------------------------------------------------
+    Total:                   16 152    1 207   21 827
+
+dl6M_tln.a: [2]
+    abort.o                      10
+    exit.o                        8
+    iar_Stoulx.o                404
+    printf.o                     40
+    putchar.o                    30
+    sprintf.o                    64
+    strstr.o                     50
+    xfail_s.o                    72                 4
+    xprintfsmall_nomb.o       1 308
+    xprout.o                     22
+    xsprout.o                    10
+    -------------------------------------------------
+    Total:                    2 018                 4
+
+m6M_tl.a: [3]
+    -------------------------------------------------
+    Total:
+
+rt6M_tl.a: [4]
+    ABImemcpy.o                  92
+    ABImemset.o                  82
+    I32DivModFast.o             224
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 12
+    data_init.o                  40
+    memchr.o                     24
+    memcmp.o                     40
+    packbits_init_single.o       60
+    strchr.o                     26
+    strcmp.o                    152
+    strcpy.o                    116
+    strlen.o                     16
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      986
+
+shb_l.a: [5]
+    ABIassert.o                  36
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       56
+
+    Gaps                         14        6
+    Linker created                        32    8 192
+-----------------------------------------------------
+    Grand Total:             19 226    1 245   30 023
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base        0x4d08           --   Gb  - Linker created -
+.iar.init_table$$Limit       0x4d28           --   Gb  - Linker created -
+.intvec$$Base                   0x0           --   Gb  - Linker created -
+.intvec$$Limit                 0xb4           --   Gb  - Linker created -
+?main                        0x4a91          Code  Gb  cmain.o [4]
+CSTACK$$Base            0x2000'6000           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'8000           --   Gb  - Linker created -
+CircularBuffer_checkAndClearFault
+                             0x1ead    0x3c  Code  Gb  circularbuffer.o [1]
+CircularBuffer_getUnreadSize
+                             0x1e7b    0x32  Code  Gb  circularbuffer.o [1]
+CircularBuffer_init          0x1e21    0x5a  Code  Gb  circularbuffer.o [1]
+CircularBuffer_popFront
+                             0x2015    0xa0  Code  Gb  circularbuffer.o [1]
+CircularBuffer_popFrontByte
+                             0x1f35    0x40  Code  Gb  circularbuffer.o [1]
+CircularBuffer_pushBack
+                             0x1f75    0xa0  Code  Gb  circularbuffer.o [1]
+CircularBuffer_pushBackByte
+                             0x1ee9    0x4c  Code  Gb  circularbuffer.o [1]
+CircularUART_ClearRx          0xc01     0xc  Code  Gb  circularuart.o [1]
+CircularUART_ClearTx          0xbf5     0xc  Code  Gb  circularuart.o [1]
+CircularUART_Init             0xbb1    0x1c  Code  Gb  circularuart.o [1]
+CircularUART_Receive          0xc49    0x14  Code  Gb  circularuart.o [1]
+CircularUART_Send             0xc0d    0x3c  Code  Gb  circularuart.o [1]
+CircularUART_StartRx          0xbe1    0x14  Code  Gb  circularuart.o [1]
+CircularUART_StartTx          0xbcd    0x14  Code  Gb  circularuart.o [1]
+Dummy_Handler                0x4a81     0x4  Code  Gb  startup_samd21.o [1]
+ESP82_ConnectWifi             0x591    0xd6  Code  Gb  ESP8266Client.o [1]
+ESP82_ConnectWifi::internalState
+                        0x2000'5542     0x1  Data  Lc  ESP8266Client.o [1]
+ESP82_Delay                   0x52d    0x10  Code  Gb  ESP8266Client.o [1]
+ESP82_Init                    0x53d    0x36  Code  Gb  ESP8266Client.o [1]
+ESP82_IsConnectedWifi         0x667    0x14  Code  Gb  ESP8266Client.o [1]
+ESP82_RES_BUSYP_str     0x2000'000c     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_RES_BUSYS_str     0x2000'0010     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_RES_CLOSED_str    0x2000'0024     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_RES_ERROR_str     0x2000'0004     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_RES_FAIL_str      0x2000'0008     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_RES_OK_str        0x2000'0000     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_RES_SEND_BEGIN_str
+                        0x2000'0028     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_RES_SEND_OK_str   0x2000'001c     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_RES_STATUS_GOTIP_str
+                        0x2000'0020     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_RES_WIFI_CONNECTED_str
+                        0x2000'0018     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_RES_WIFI_GOTIP_str
+                        0x2000'0014     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_Receive                 0x7c1   0x14a  Code  Gb  ESP8266Client.o [1]
+ESP82_Receive::expectedLength
+                        0x2000'54bc     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_Receive::internalState
+                        0x2000'5544     0x1  Data  Lc  ESP8266Client.o [1]
+ESP82_SR_State          0x2000'54b0     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_SSLSIZE_str       0x2000'002c     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_Send                    0x741    0x52  Code  Gb  ESP8266Client.o [1]
+ESP82_StartTCP                0x689    0xb0  Code  Gb  ESP8266Client.o [1]
+ESP82_StartTCP::internalState
+                        0x2000'5543     0x1  Data  Lc  ESP8266Client.o [1]
+ESP82_checkResponse           0x209   0x23c  Code  Lc  ESP8266Client.o [1]
+ESP82_checkResponse{2}{5}::lineString
+                        0x2000'54b8     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_cmdBuffer         0x2000'5208    0x80  Data  Lc  ESP8266Client.o [1]
+ESP82_execute                 0x4bd    0x52  Code  Gb  ESP8266Client.o [1]
+ESP82_execute::internalState
+                        0x2000'5541     0x1  Data  Lc  ESP8266Client.o [1]
+ESP82_getTime_ms        0x2000'54a8     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_inProgress        0x2000'553f     0x1  Data  Lc  ESP8266Client.o [1]
+ESP82_readLine                0x19f    0x3a  Code  Lc  ESP8266Client.o [1]
+ESP82_receivedFlags     0x2000'54ac     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_resBuffer         0x2000'5188    0x80  Data  Lc  ESP8266Client.o [1]
+ESP82_resBufferBack     0x2000'553e     0x1  Data  Lc  ESP8266Client.o [1]
+ESP82_resBufferFront    0x2000'553d     0x1  Data  Lc  ESP8266Client.o [1]
+ESP82_sendCmd                 0x115    0x8a  Code  Gb  ESP8266Client.o [1]
+ESP82_sendData                0x44d    0x62  Code  Lc  ESP8266Client.o [1]
+ESP82_sendData::internalState
+                        0x2000'5540     0x1  Data  Lc  ESP8266Client.o [1]
+ESP82_t0                0x2000'54b4     0x4  Data  Lc  ESP8266Client.o [1]
+ESP82_timeoutBegin             0xe7     0xe  Code  Lc  ESP8266Client.o [1]
+ESP82_timeoutIsExpired         0xf5    0x20  Code  Lc  ESP8266Client.o [1]
+ESP82_uartRxBuf         0x2000'5108    0x80  Data  Lc  ESP8266Client.o [1]
+ESP82_uartTxBuf         0x2000'5088    0x80  Data  Lc  ESP8266Client.o [1]
+LoadInt                      0x2305    0x5a  Code  Lc  xprintfsmall_nomb.o [2]
+MQTTDeserialize_connack
+                             0x3b09    0x78  Code  Gb  MQTTConnectClient.o [1]
+MQTTPacket_VBIlen            0x3c11    0x2a  Code  Gb  MQTTPacket.o [1]
+MQTTPacket_decode            0x3bcd    0x44  Code  Gb  MQTTPacket.o [1]
+MQTTPacket_decodeBuf         0x3c6b    0x14  Code  Gb  MQTTPacket.o [1]
+MQTTPacket_decodenb          0x3d5d    0x68  Code  Lc  MQTTPacket.o [1]
+MQTTPacket_encode            0x3b99    0x34  Code  Gb  MQTTPacket.o [1]
+MQTTPacket_len               0x3c3b    0x10  Code  Gb  MQTTPacket.o [1]
+MQTTPacket_readnb            0x3dc5    0xc6  Code  Gb  MQTTPacket.o [1]
+MQTTSerialize_connect        0x3973   0x196  Code  Gb  MQTTConnectClient.o [1]
+MQTTSerialize_connectLength
+                             0x38e9    0x8a  Code  Gb  MQTTConnectClient.o [1]
+MQTTSerialize_publish        0x3eb5    0xc2  Code  Gb  MQTTSerializePublish.o [1]
+MQTTSerialize_publishLength
+                             0x3e95    0x20  Code  Gb  MQTTSerializePublish.o [1]
+MQTTstrlen                   0x3d3f    0x1a  Code  Gb  MQTTPacket.o [1]
+PendSV_Handler               0x2f27          Code  Gb  portasm.o [1]
+Region$$Table$$Base          0x4d08           --   Gb  - Linker created -
+Region$$Table$$Limit         0x4d28           --   Gb  - Linker created -
+Reset_Handler                0x4a17    0x50  Code  Gb  startup_samd21.o [1]
+SERCOM5_Handler              0x1df5     0xc  Code  Gb  hpl_sercom.o [1]
+SVCall_Handler               0x2f65          Code  Gb  portasm.o [1]
+SysTick_Handler              0x269f    0x20  Code  Gb  port.o [1]
+TARGET_IO               0x2000'5494     0xc  Data  Gb  driver_init.o [1]
+TARGET_IO_CLOCK_init         0x4593    0x14  Code  Gb  driver_init.o [1]
+TARGET_IO_PORT_init          0x457f    0x14  Code  Gb  driver_init.o [1]
+TARGET_IO_init               0x45a7    0x16  Code  Gb  driver_init.o [1]
+USART_0                 0x2000'536c    0x50  Data  Gb  driver_init.o [1]
+USART_0_CLOCK_init           0x45c5    0x14  Code  Gb  driver_init.o [1]
+USART_0_PORT_init            0x45dd    0x14  Code  Gb  driver_init.o [1]
+USART_0_buffer          0x2000'53bc    0x40  Data  Lc  driver_init.o [1]
+USART_0_example              0x3fed    0x3a  Code  Gb  driver_examples.o [1]
+USART_0_init                 0x45f1    0x1c  Code  Gb  driver_init.o [1]
+_LitobSmallNoMb              0x24a1    0xea  Code  Lc  xprintfsmall_nomb.o [2]
+_PrintfSmallNoMb             0x20c5   0x232  Code  Gb  xprintfsmall_nomb.o [2]
+_Prout                       0x4de5    0x16  Code  Gb  xprout.o [2]
+_PutcharsSmallNoMb           0x2591    0x34  Code  Lc  xprintfsmall_nomb.o [2]
+_PutfldSmallNoMb             0x2361   0x140  Code  Lc  xprintfsmall_nomb.o [2]
+_SProut                       0xba7     0xa  Code  Gb  xsprout.o [2]
+__NVIC_ClearPendingIRQ       0x1909    0x18  Code  Lc  hpl_sercom.o [1]
+__NVIC_DisableIRQ            0x18e9    0x20  Code  Lc  hpl_sercom.o [1]
+__NVIC_EnableIRQ             0x18d1    0x18  Code  Lc  hpl_sercom.o [1]
+__NVIC_SystemReset             0xb5    0x14  Code  Lc  ESP8266Client.o [1]
+__aeabi_assert               0x2eb5    0x24  Code  Gb  ABIassert.o [5]
+__aeabi_idiv                 0x2dff          Code  Gb  I32DivModFast.o [4]
+__aeabi_idiv0                0x4115          Code  Gb  IntDivZer.o [4]
+__aeabi_idivmod              0x2dff          Code  Gb  I32DivModFast.o [4]
+__aeabi_memclr4              0x2da1          Code  Gb  ABImemset.o [4]
+__aeabi_memclr8              0x2da1          Code  Gb  ABImemset.o [4]
+__aeabi_memcpy               0x17f5          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4              0x181d          Code  Wk  ABImemcpy.o [4]
+__aeabi_memset               0x2d81          Code  Gb  ABImemset.o [4]
+__aeabi_uidiv                0x2e05          Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod             0x2e05          Code  Gb  I32DivModFast.o [4]
+__cmain                      0x4a91          Code  Gb  cmain.o [4]
+__exit                       0x4789    0x14  Code  Gb  exit.o [5]
+__iar_Fail_s                 0x2ed9    0x22  Code  Gb  xfail_s.o [2]
+__iar_Memset4_word           0x2da5          Code  Gb  ABImemset.o [4]
+__iar_Memset_word            0x2d8d          Code  Gb  ABImemset.o [4]
+__iar_Stoulx                 0x1661   0x134  Code  Gb  iar_Stoulx.o [2]
+__iar_Strchr                 0x25e1     0x2  Code  Gb  strchr.o [4]
+__iar_data_init3             0x4ab1    0x28  Code  Gb  data_init.o [4]
+__iar_packbits_init_single3
+                             0x4c19    0x3c  Code  Gb  packbits_init_single.o [4]
+__iar_program_start          0x4a85          Code  Gb  cstartup_M.o [4]
+__iar_zero_init3             0x4bdd    0x3c  Code  Gb  zero_init3.o [4]
+__low_level_init             0x4a09     0xe  Code  Gb  startup_samd21.o [1]
+__vector_table                  0x0    0xb4  Data  Gb  startup_samd21.o [1]
+__write                      0x4c55    0x38  Code  Gb  write.o [1]
+_call_main                   0x4a9d          Code  Gb  cmain.o [4]
+_delay_cycles                0x4781     0x6  Code  Gb  hpl_core_m0plus_base.o [1]
+_exit                        0x4ae1          Code  Gb  cexit.o [4]
+_gclk_enable_channel         0x4443    0x2c  Code  Lc  driver_init.o [1]
+_gclk_init_generators_by_fref
+                             0x49c5    0x36  Code  Gb  hpl_gclk.o [1]
+_get_cycles_for_ms           0x475b    0x12  Code  Gb  hpl_core_m0plus_base.o [1]
+_get_cycles_for_ms_internal
+                             0x46b1    0xaa  Code  Lc  hpl_core_m0plus_base.o [1]
+_get_sercom_index            0x1c7b    0x38  Code  Lc  hpl_sercom.o [1]
+_gpio_set_direction          0x4299    0xb8  Code  Lc  driver_init.o [1]
+_gpio_set_level              0x4351    0x30  Code  Lc  driver_init.o [1]
+_gpio_set_pin_function       0x4381    0x6e  Code  Lc  driver_init.o [1]
+_init_chip                   0x47af    0x24  Code  Gb  hpl_init.o [1]
+_main                        0x4aab          Code  Gb  cmain.o [4]
+_pm_enable_bus_clock         0x4501    0x7e  Code  Lc  driver_init.o [1]
+_pm_get_ahb_index            0x446f    0x4a  Code  Lc  driver_init.o [1]
+_pm_get_apbb_index           0x44b9    0x48  Code  Lc  driver_init.o [1]
+_pm_init                     0x4835    0x26  Code  Gb  hpl_pm.o [1]
+_sercom5_dev            0x2000'54cc     0x4  Data  Lc  hpl_sercom.o [1]
+_sercom_get_hardware_index
+                             0x1b73     0xa  Code  Lc  hpl_sercom.o [1]
+_sercom_get_irq_num          0x1de5    0x10  Code  Lc  hpl_sercom.o [1]
+_sercom_init_irq_param       0x1cb3     0xe  Code  Lc  hpl_sercom.o [1]
+_sercom_usart_interrupt_handler
+                             0x1bd3    0xa8  Code  Lc  hpl_sercom.o [1]
+_sysctrl_init_referenced_generators
+                             0x4919    0x76  Code  Gb  hpl_sysctrl.o [1]
+_sysctrl_init_sources        0x48e7    0x32  Code  Gb  hpl_sysctrl.o [1]
+_usart_async_enable          0x1af5     0xc  Code  Gb  hpl_sercom.o [1]
+_usart_async_enable_byte_sent_irq
+                             0x1b5b     0xc  Code  Gb  hpl_sercom.o [1]
+_usart_async_enable_tx_done_irq
+                             0x1b67     0xc  Code  Gb  hpl_sercom.o [1]
+_usart_async_init            0x1aa1    0x48  Code  Gb  hpl_sercom.o [1]
+_usart_async_set_irq_state
+                             0x1b7d    0x56  Code  Gb  hpl_sercom.o [1]
+_usart_async_write_byte
+                             0x1b15    0x14  Code  Gb  hpl_sercom.o [1]
+_usart_init                  0x1cc1   0x112  Code  Lc  hpl_sercom.o [1]
+_usart_sync_enable           0x1ae9     0xc  Code  Gb  hpl_sercom.o [1]
+_usart_sync_init             0x1a91    0x10  Code  Gb  hpl_sercom.o [1]
+_usart_sync_is_byte_received
+                             0x1b4f     0xc  Code  Gb  hpl_sercom.o [1]
+_usart_sync_is_ready_to_send
+                             0x1b37     0xc  Code  Gb  hpl_sercom.o [1]
+_usart_sync_is_transmit_done
+                             0x1b43     0xc  Code  Gb  hpl_sercom.o [1]
+_usart_sync_read_byte        0x1b29     0xe  Code  Gb  hpl_sercom.o [1]
+_usart_sync_write_byte       0x1b01    0x14  Code  Gb  hpl_sercom.o [1]
+_usarts                 0x2000'0030    0x28  Data  Lc  hpl_sercom.o [1]
+abort                        0x4117     0xa  Code  Gb  abort.o [2]
+atmel_start_init             0x3f7d     0xc  Code  Gb  atmel_start.o [1]
+atoi                         0x1795     0x4  Code  Gb  iar_Stoulx.o [2]
+atomic_enter_critical        0x1e05     0xe  Code  Gb  hal_atomic.o [1]
+atomic_leave_critical        0x1e13     0xc  Code  Gb  hal_atomic.o [1]
+bufchar                      0x3c4b    0x20  Code  Gb  MQTTPacket.o [1]
+bufptr                  0x2000'54d0     0x4  Data  Lc  MQTTPacket.o [1]
+delay_ms                     0x3f89    0x18  Code  Gb  hal_delay.o [1]
+digits                       0x17a4    0x28  Data  Lc  iar_Stoulx.o [2]
+err_cb                       0x3fe1     0xc  Code  Lc  driver_examples.o [1]
+exit                         0x4ad9     0x8  Code  Gb  exit.o [2]
+from                    0x2000'5530     0x4  Data  Lc  transport.o [1]
+gpio_set_pin_direction       0x43ff    0x1e  Code  Lc  driver_init.o [1]
+gpio_set_pin_function        0x43ef    0x10  Code  Lc  driver_init.o [1]
+gpio_set_pin_level           0x441d    0x1e  Code  Lc  driver_init.o [1]
+hardware                0x2000'54c0     0x4  Data  Lc  hal_delay.o [1]
+howmany                 0x2000'5534     0x4  Data  Lc  transport.o [1]
+hri_gclk_get_STATUS_SYNCBUSY_bit
+                             0x4861    0x14  Code  Lc  hpl_sysctrl.o [1]
+hri_gclk_wait_for_sync       0x49a1    0x10  Code  Lc  hpl_gclk.o [1]
+hri_gclk_write_CLKCTRL_reg
+                             0x4195     0x4  Code  Lc  driver_init.o [1]
+hri_gclk_write_CLKCTRL_reg
+                             0x4875     0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_gclk_write_GENCTRL_reg
+                             0x49b1    0x10  Code  Lc  hpl_gclk.o [1]
+hri_gclk_write_GENDIV_reg
+                             0x49c1     0x4  Code  Lc  hpl_gclk.o [1]
+hri_nvmctrl_set_CTRLB_RWS_bf
+                             0x479d    0x12  Code  Lc  hpl_init.o [1]
+hri_pm_set_APBASEL_APBADIV_bf
+                             0x4811     0xc  Code  Lc  hpl_pm.o [1]
+hri_pm_set_APBBSEL_APBBDIV_bf
+                             0x481d     0xc  Code  Lc  hpl_pm.o [1]
+hri_pm_set_APBCSEL_APBCDIV_bf
+                             0x4829     0xc  Code  Lc  hpl_pm.o [1]
+hri_pm_set_CPUSEL_CPUDIV_bf
+                             0x4805     0xc  Code  Lc  hpl_pm.o [1]
+hri_port_clear_DIR_reg       0x41ab    0x12  Code  Lc  driver_init.o [1]
+hri_port_clear_OUT_reg       0x41cf    0x12  Code  Lc  driver_init.o [1]
+hri_port_set_DIR_reg         0x4199    0x12  Code  Lc  driver_init.o [1]
+hri_port_set_OUT_reg         0x41bd    0x12  Code  Lc  driver_init.o [1]
+hri_port_write_PINCFG_PMUXEN_bit
+                             0x4253    0x34  Code  Lc  driver_init.o [1]
+hri_port_write_PMUX_PMUXE_bf
+                             0x41e1    0x38  Code  Lc  driver_init.o [1]
+hri_port_write_PMUX_PMUXO_bf
+                             0x4219    0x3a  Code  Lc  driver_init.o [1]
+hri_port_write_WRCONFIG_reg
+                             0x4287    0x12  Code  Lc  driver_init.o [1]
+hri_sercomusart_clear_CTRLA_ENABLE_bit
+                             0x1a25    0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_clear_INTEN_DRE_bit
+                             0x19af     0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_clear_INTEN_TXC_bit
+                             0x19dd     0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_clear_STATUS_reg
+                             0x1a89     0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_clear_interrupt_ERROR_bit
+                             0x1983     0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_CTRLA_reg
+                             0x1a3b    0x14  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_INTEN_DRE_bit
+                             0x198f     0xa  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_INTEN_TXC_bit
+                             0x19bb     0xc  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_interrupt_DRE_bit
+                             0x194d     0xa  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_interrupt_ERROR_bit
+                             0x196f    0x14  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_interrupt_RXC_bit
+                             0x1963     0xc  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_interrupt_TXC_bit
+                             0x1957     0xc  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_is_syncing
+                             0x1939    0x14  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_read_DATA_reg
+                             0x1a7f     0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_read_STATUS_reg
+                             0x1a8d     0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_set_CTRLA_ENABLE_bit
+                             0x1a0f    0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_set_INTEN_DRE_bit
+                             0x1989     0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_set_INTEN_TXC_bit
+                             0x19b5     0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_wait_for_sync
+                             0x192d     0xc  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_BAUD_reg
+                             0x1a73     0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_CTRLA_reg
+                             0x1a4f    0x12  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_CTRLB_reg
+                             0x1a61    0x12  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_DATA_reg
+                             0x1a7b     0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_DBGCTRL_reg
+                             0x1a83     0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_INTEN_DRE_bit
+                             0x1999    0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_INTEN_ERROR_bit
+                             0x19f9    0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_INTEN_RXC_bit
+                             0x19e3    0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_INTEN_TXC_bit
+                             0x19c7    0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_RXPL_reg
+                             0x1a77     0x4  Code  Lc  hpl_sercom.o [1]
+hri_sysctrl_clear_OSC32K_ENABLE_bit
+                             0x48a7     0xa  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_DFLLCTRL_MODE_bit
+                             0x48c1    0x1a  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_PCLKSR_DFLLRDY_bit
+                             0x4885     0xc  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_PCLKSR_XOSC32KRDY_bit
+                             0x4879     0xc  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_PCLKSR_reg
+                             0x4891     0x8  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_read_OSCULP32K_CALIB_bf
+                             0x48b1     0xc  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_set_OSC32K_ENABLE_bit
+                             0x489d     0xa  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_DFLLCTRL_reg
+                             0x48db     0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_DFLLMUL_reg
+                             0x48e3     0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_DFLLVAL_reg
+                             0x48df     0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_OSCULP32K_reg
+                             0x48bd     0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_XOSC32K_reg
+                             0x4899     0x4  Code  Lc  hpl_sysctrl.o [1]
+init_mcu                     0x443b     0x8  Code  Lc  driver_init.o [1]
+io                      0x2000'54a0     0x4  Data  Gb  driver_examples.o [1]
+io                      0x2000'552c     0x4  Data  Lc  transport.o [1]
+io_read                       0xb91    0x16  Code  Gb  hal_io.o [1]
+io_write                      0xb7b    0x16  Code  Gb  hal_io.o [1]
+main                         0x2c71    0x62  Code  Gb  main.o [1]
+memchr                       0x1649    0x18  Code  Gb  memchr.o [4]
+memcmp                        0xcc7    0x28  Code  Gb  memcmp.o [4]
+ndigs                        0x17cc    0x28  Data  Lc  iar_Stoulx.o [2]
+network_connect              0x3707    0x2c  Code  Gb  networkwrapper.o [1]
+network_gettime_ms           0x2c69     0x8  Code  Gb  main.o [1]
+network_host            0x2000'0060    0x20  Data  Lc  networkwrapper.o [1]
+network_init                 0x3705     0x2  Code  Gb  networkwrapper.o [1]
+network_keepalive       0x2000'0086     0x2  Data  Lc  networkwrapper.o [1]
+network_port            0x2000'0084     0x2  Data  Lc  networkwrapper.o [1]
+network_recv                 0x3813    0xa2  Code  Gb  networkwrapper.o [1]
+network_recv::receiveBuffer
+                        0x2000'5288    0x80  Data  Lc  networkwrapper.o [1]
+network_recv::receiveBufferBack
+                        0x2000'54dc     0x4  Data  Lc  networkwrapper.o [1]
+network_recv::receiveBufferFront
+                        0x2000'54e0     0x4  Data  Lc  networkwrapper.o [1]
+network_recv_state      0x2000'54d8     0x4  Data  Lc  networkwrapper.o [1]
+network_send                 0x3733    0xe0  Code  Gb  networkwrapper.o [1]
+network_send_state      0x2000'54d4     0x4  Data  Lc  networkwrapper.o [1]
+network_ssl             0x2000'5546     0x1  Data  Lc  networkwrapper.o [1]
+printf                        0xc6d    0x28  Code  Gb  printf.o [2]
+prvAddCurrentTaskToDelayedList
+                             0x13f5    0x38  Code  Lc  tasks.o [1]
+prvAllocateTCBAndStack       0x1445    0x5a  Code  Lc  tasks.o [1]
+prvCheckForValidListAndQueue
+                             0x2ad5    0x42  Code  Lc  timers.o [1]
+prvCheckTasksWaitingTermination
+                             0x13f3     0x2  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue         0x3479    0x34  Code  Lc  queue.o [1]
+prvCopyDataToQueue           0x33e1    0x98  Code  Lc  queue.o [1]
+prvGetNextExpireTime         0x28ef    0x2a  Code  Lc  timers.o [1]
+prvIdleTask                  0x1341    0x16  Code  Lc  tasks.o [1]
+prvInitialiseTCBVariables
+                             0x135d    0x58  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists       0x13b5    0x3e  Code  Lc  tasks.o [1]
+prvInsertTimerInActiveList
+                             0x293f    0x4e  Code  Lc  timers.o [1]
+prvIsQueueEmpty              0x352f    0x1c  Code  Lc  queue.o [1]
+prvIsQueueFull               0x354d    0x1e  Code  Lc  queue.o [1]
+prvNotifyQueueSetContainer
+                             0x35b1    0x60  Code  Lc  queue.o [1]
+prvProcessExpiredTimer       0x2825    0x4e  Code  Lc  timers.o [1]
+prvProcessReceivedCommands
+                             0x2999    0xc6  Code  Lc  timers.o [1]
+prvProcessTimerOrBlockTask
+                             0x288d    0x62  Code  Lc  timers.o [1]
+prvResetNextTaskUnblockTime
+                             0x149f    0x26  Code  Lc  tasks.o [1]
+prvSampleTimeNow             0x2919    0x26  Code  Lc  timers.o [1]
+prvSampleTimeNow::xLastTime
+                        0x2000'5528     0x4  Data  Lc  timers.o [1]
+prvSetupTimerInterrupt       0x26bf     0xe  Code  Lc  port.o [1]
+prvSwitchTimerLists          0x2a61    0x70  Code  Lc  timers.o [1]
+prvTaskExitError             0x2619    0x16  Code  Lc  port.o [1]
+prvTemperaturePublisher
+                             0x2b31   0x138  Code  Lc  main.o [1]
+prvTemperaturePublisher::iof
+                        0x2000'0058     0x8  Data  Lc  main.o [1]
+prvTemperaturePublisher{4}{5}{6}{7}{24}::x
+                        0x2000'5545     0x1  Data  Lc  main.o [1]
+prvTimerTask                 0x2873    0x1a  Code  Lc  timers.o [1]
+prvUnlockQueue               0x34ad    0x82  Code  Lc  queue.o [1]
+putchar                      0x4d49    0x1e  Code  Gb  putchar.o [2]
+pvPortMalloc                 0x2d11    0x54  Code  Gb  heap_1.o [1]
+pvPortMalloc::pucAlignedHeap
+                        0x2000'54c8     0x4  Data  Lc  heap_1.o [1]
+pvTaskIncrementMutexHeldCount
+                             0x15dd    0x16  Code  Gb  tasks.o [1]
+pxCurrentTCB            0x2000'54e8     0x4  Data  Gb  tasks.o [1]
+pxCurrentTimerList      0x2000'551c     0x4  Data  Lc  timers.o [1]
+pxDelayedTaskList       0x2000'54ec     0x4  Data  Lc  tasks.o [1]
+pxOverflowDelayedTaskList
+                        0x2000'54f0     0x4  Data  Lc  tasks.o [1]
+pxOverflowTimerList     0x2000'5520     0x4  Data  Lc  timers.o [1]
+pxPortInitialiseStack        0x25fd    0x1a  Code  Gb  port.o [1]
+pxReadyTasksLists       0x2000'5308    0x64  Data  Lc  tasks.o [1]
+readChar                     0x3c7f    0x10  Code  Gb  MQTTPacket.o [1]
+ringbuffer_get               0x1875    0x28  Code  Gb  utils_ringbuffer.o [1]
+ringbuffer_init              0x1851    0x24  Code  Gb  utils_ringbuffer.o [1]
+ringbuffer_num               0x18c9     0x8  Code  Gb  utils_ringbuffer.o [1]
+ringbuffer_put               0x189d    0x2c  Code  Gb  utils_ringbuffer.o [1]
+rxBufferObject          0x2000'5474    0x10  Data  Gb  circularuart.o [1]
+rx_cb                        0x3fc5    0x1c  Code  Lc  driver_examples.o [1]
+sec_hand                0x2000'5538     0x4  Data  Lc  xfail_s.o [2]
+sendData                0x2000'553c     0x1  Data  Gb  circularuart.o [1]
+sendToESPUart                  0xc9    0x1e  Code  Gb  ESP8266Client.o [1]
+sprintf                      0x1609    0x40  Code  Gb  sprintf.o [2]
+stdio                   0x2000'54a4     0x4  Data  Gb  driver_examples.o [1]
+stdio_io                0x2000'54e4     0x4  Data  Lc  stdio_io.o [1]
+stdio_io_init                0x47d9     0x6  Code  Gb  stdio_io.o [1]
+stdio_io_write               0x47df    0x22  Code  Gb  stdio_io.o [1]
+stdio_redirect_init          0x4699    0x12  Code  Gb  stdio_start.o [1]
+strchr                       0x25e5     0x2  Code  Gb  strchr.o [4]
+strcmp                        0xd01          Code  Gb  strcmp.o [4]
+strcpy                       0x4121          Code  Gb  strcpy.o [4]
+strlen                        0xd89    0x10  Code  Gb  strlen.o [4]
+strstr                        0xc95    0x32  Code  Gb  strstr.o [2]
+system_init                  0x4655    0x44  Code  Gb  driver_init.o [1]
+transport_getdatanb          0x36a5    0x3c  Code  Gb  transport.o [1]
+transport_open               0x36e1     0xa  Code  Gb  transport.o [1]
+transport_sendPacketBuffer
+                             0x3679    0x2c  Code  Gb  transport.o [1]
+transport_sendPacketBuffernb
+                             0x361b    0x5e  Code  Gb  transport.o [1]
+transport_sendPacketBuffernb_start
+                             0x3611     0xa  Code  Gb  transport.o [1]
+txBufferObject          0x2000'5484    0x10  Data  Gb  circularuart.o [1]
+tx_cb_USART_0                0x3fa5    0x20  Code  Lc  driver_examples.o [1]
+ucHeap                  0x2000'0088  0x5000  Data  Lc  heap_1.o [1]
+ulSetInterruptMaskFromISR
+                             0x2f81          Code  Gb  portasm.o [1]
+usart_async_enable            0x9cd    0x10  Code  Gb  hal_usart_async.o [1]
+usart_async_get_io_descriptor
+                              0x9dd     0x8  Code  Gb  hal_usart_async.o [1]
+usart_async_init              0x961    0x52  Code  Gb  hal_usart_async.o [1]
+usart_async_read              0xa95    0x4c  Code  Lc  hal_usart_async.o [1]
+usart_async_register_callback
+                              0x9e5    0x76  Code  Gb  hal_usart_async.o [1]
+usart_async_write             0xa5b    0x3a  Code  Lc  hal_usart_async.o [1]
+usart_error                   0xb61    0x1a  Code  Lc  hal_usart_async.o [1]
+usart_fill_rx_buffer          0xb3d    0x24  Code  Lc  hal_usart_async.o [1]
+usart_process_byte_sent
+                              0xae1    0x42  Code  Lc  hal_usart_async.o [1]
+usart_sync_enable            0x4085    0x10  Code  Gb  hal_usart_sync.o [1]
+usart_sync_get_io_descriptor
+                             0x4095     0x8  Code  Gb  hal_usart_sync.o [1]
+usart_sync_init              0x4055    0x28  Code  Gb  hal_usart_sync.o [1]
+usart_sync_read              0x40e3    0x30  Code  Lc  hal_usart_sync.o [1]
+usart_sync_write             0x409d    0x46  Code  Lc  hal_usart_sync.o [1]
+usart_transmission_complete
+                              0xb23    0x1a  Code  Lc  hal_usart_async.o [1]
+uxCriticalNesting       0x2000'0080     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x2000'54f4     0x4  Data  Lc  tasks.o [1]
+uxListRemove                 0x275b    0x2a  Code  Gb  list.o [1]
+uxPendedTicks           0x2000'5504     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x2000'5518     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x2000'5510     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x2000'54fc     0x4  Data  Lc  tasks.o [1]
+vApplicationStackOverflowHook
+                             0x2d0d     0x4  Code  Gb  main.o [1]
+vClearInterruptMaskFromISR
+                             0x2f89          Code  Gb  portasm.o [1]
+vListInitialise              0x26e9    0x1e  Code  Gb  list.o [1]
+vListInitialiseItem          0x2707     0x6  Code  Gb  list.o [1]
+vListInsert                  0x2725    0x36  Code  Gb  list.o [1]
+vListInsertEnd               0x270d    0x18  Code  Gb  list.o [1]
+vPortEnterCritical           0x266d    0x14  Code  Gb  port.o [1]
+vPortExitCritical            0x2681    0x1e  Code  Gb  port.o [1]
+vPortFree                    0x2d65     0xc  Code  Gb  heap_1.o [1]
+vPortStartFirstTask          0x2f67          Code  Gb  portasm.o [1]
+vPortYield                   0x2659    0x12  Code  Gb  port.o [1]
+vQueueWaitForMessageRestricted
+                             0x356b    0x44  Code  Gb  queue.o [1]
+vSetMSP                      0x2f21          Code  Gb  portasm.o [1]
+vTaskDelay                    0xe95    0x42  Code  Gb  tasks.o [1]
+vTaskMissedYield             0x1339     0x8  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList        0x118d    0x48  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventListRestricted
+                             0x11f1    0x46  Code  Gb  tasks.o [1]
+vTaskPriorityInherit         0x14e9    0x68  Code  Gb  tasks.o [1]
+vTaskSetTimeOutState         0x12b5    0x18  Code  Gb  tasks.o [1]
+vTaskStartScheduler           0xee9    0x54  Code  Gb  tasks.o [1]
+vTaskSuspendAll               0xf41     0xa  Code  Gb  tasks.o [1]
+vTaskSwitchContext           0x110d    0x7a  Code  Gb  tasks.o [1]
+writeCString                 0x3ccb    0x2e  Code  Gb  MQTTPacket.o [1]
+writeChar                    0x3c8f     0xc  Code  Gb  MQTTPacket.o [1]
+writeInt                     0x3c9b    0x30  Code  Gb  MQTTPacket.o [1]
+writeMQTTString              0x3cf9    0x46  Code  Gb  MQTTPacket.o [1]
+xActiveTimerList1       0x2000'544c    0x14  Data  Lc  timers.o [1]
+xActiveTimerList2       0x2000'5460    0x14  Data  Lc  timers.o [1]
+xDelayedTaskList1       0x2000'53fc    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x2000'5410    0x14  Data  Lc  tasks.o [1]
+xNextFreeByte           0x2000'54c4     0x4  Data  Lc  heap_1.o [1]
+xNextTaskUnblockTime    0x2000'5514     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x2000'550c     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x2000'5424    0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler          0x262f    0x2a  Code  Gb  port.o [1]
+xQueueGenericCreate          0x3009    0x66  Code  Gb  queue.o [1]
+xQueueGenericReceive         0x3289   0x158  Code  Gb  queue.o [1]
+xQueueGenericReset           0x2f95    0x72  Code  Gb  queue.o [1]
+xQueueGenericSend            0x3071   0x15a  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                             0x31cd    0xbc  Code  Gb  queue.o [1]
+xSchedulerRunning       0x2000'5500     0x4  Data  Lc  tasks.o [1]
+xSuspendedTaskList      0x2000'5438    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut         0x12d1    0x68  Code  Gb  tasks.o [1]
+xTaskGenericCreate            0xd99    0xfa  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState       0x14c5    0x1e  Code  Gb  tasks.o [1]
+xTaskGetTickCount            0x1007     0x6  Code  Gb  tasks.o [1]
+xTaskIncrementTick           0x101d    0xe4  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                             0x1559    0x6e  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                             0x1249    0x6a  Code  Gb  tasks.o [1]
+xTaskResumeAll                0xf55    0xb2  Code  Gb  tasks.o [1]
+xTickCount              0x2000'54f8     0x4  Data  Lc  tasks.o [1]
+xTimerCreateTimerTask        0x2785    0x3c  Code  Gb  timers.o [1]
+xTimerGenericCommand         0x27c1    0x62  Code  Gb  timers.o [1]
+xTimerQueue             0x2000'5524     0x4  Data  Lc  timers.o [1]
+xYieldPending           0x2000'5508     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = F:\rajeev\ProjectFolder\New folder\ESP_XBEE_MQTT\Debug\Obj
+[2] = dl6M_tln.a
+[3] = m6M_tl.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  19 226 bytes of readonly  code memory
+   1 245 bytes of readonly  data memory
+  30 023 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

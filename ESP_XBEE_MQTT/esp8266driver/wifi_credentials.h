@@ -1,0 +1,2 @@
+#define WIFI_AP_SSID "WIFISSID"
+#define WIFI_AP_PASS "PASSWORD"
