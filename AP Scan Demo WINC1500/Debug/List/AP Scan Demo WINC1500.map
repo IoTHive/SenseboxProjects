@@ -1,0 +1,934 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  16/Jun/2019  18:21:34
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\rajeev\ProjectFolder\New folder\AP Scan Demo WINC1500\Debug\Exe\AP
+#        Scan Demo WINC1500.out
+#    Map file     =  
+#        F:\rajeev\ProjectFolder\New folder\AP Scan Demo WINC1500\Debug\List\AP
+#        Scan Demo WINC1500.map
+#    Command line =  
+#        -f C:\Users\Rajeev\AppData\Local\Temp\EW2378.tmp
+#        ("F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\atmel_start.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\driver_examples.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\driver_init.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\hal_atomic.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\hal_delay.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\hal_ext_irq.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\hal_gpio.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\hal_init.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\hal_io.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\hal_sleep.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\hal_spi_m_sync.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\hal_usart_sync.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\hpl_core_m0plus_base.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\hpl_dmac.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\hpl_eic.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\hpl_gclk.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\hpl_init.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\hpl_pm.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\hpl_sercom.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\hpl_sysctrl.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\hpl_systick.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\m2m_ate_mode.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\m2m_crypto.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\m2m_hif.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\m2m_ota.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\m2m_periph.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\m2m_ssl.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\m2m_wifi.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\main.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\nm_bsp.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\nm_bus_wrapper.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\nm_common.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\nmasic.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\nmbus.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\nmdrv.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\nmi2c.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\nmspi.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\nmuart.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\read.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\socket.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\spi_flash.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\startup_samd21.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\stdio_io.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\stdio_start.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\system_samd21.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\utils_assert.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\utils_event.o" "F:\rajeev\ProjectFolder\New
+#        folder\AP Scan Demo WINC1500\Debug\Obj\utils_list.o"
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\Debug\Obj\winc_init.o" "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\Obj\write.o" --no_out_extension -o
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo WINC1500\Debug\Exe\AP
+#        Scan Demo WINC1500.out" --map "F:\rajeev\ProjectFolder\New folder\AP
+#        Scan Demo WINC1500\Debug\List\AP Scan Demo WINC1500.map" --config
+#        "F:\rajeev\ProjectFolder\New folder\AP Scan Demo
+#        WINC1500\samd21a\iar\iar\samd21j18a_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] { rw };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 0M, alignment = 8 { };
+"A1":  place at end of [from 0x2000'0000 to 0x2000'7fff] {
+          block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xb4
+  .intvec                             0x0    0xb4  <Block>
+    .intvec          const            0x0    0xb4  startup_samd21.o [1]
+                                   - 0xb4    0xb4
+
+"P1":                                      0x5c68
+  .text              ro code         0xb4   0xd28  nmspi.o [1]
+  .text              ro code        0xddc   0x17a  nm_bus_wrapper.o [1]
+  .text              ro code        0xf58    0x28  printf.o [2]
+  .text              ro code        0xf80   0x124  nm_bsp.o [1]
+  .text              ro code       0x10a4    0x2c  hal_io.o [1]
+  .text              ro code       0x10d0    0xb0  hal_spi_m_sync.o [1]
+  .text              ro code       0x1180   0x51c  xprintfsmall_nomb.o [2]
+  .text              ro code       0x169c    0x2c  hal_delay.o [1]
+  .text              ro code       0x16c8   0x200  hal_ext_irq.o [1]
+  .text              ro code       0x18c8   0x2fc  hpl_eic.o [1]
+  .text              ro code       0x1bc4   0x66c  hpl_sercom.o [1]
+  .text              ro code       0x2230    0x16  strchr.o [4]
+  .text              ro code       0x2248    0x48  xfail_s.o [2]
+  .text              ro code       0x2290    0x10  strlen.o [4]
+  .text              ro code       0x22a0    0x18  memchr.o [4]
+  .text              ro code       0x22b8    0xae  I32DivModFast.o [4]
+  .text              ro code       0x2368    0x2e  hpl_systick.o [1]
+  .text              ro code       0x2398    0xac  hpl_core_m0plus_base.o [1]
+  .text              ro code       0x2444    0x16  uread4.o [4]
+  .text              ro code       0x245c    0x52  ABImemset.o [4]
+  .text              ro code       0x24ae     0xa  abort.o [2]
+  .text              ro code       0x24b8     0x2  IntDivZer.o [4]
+  .text              ro code       0x24bc    0x14  exit.o [5]
+  .text              ro code       0x24d0   0x8cc  m2m_hif.o [1]
+  .text              ro code       0x2d9c   0x150  nmbus.o [1]
+  .text              ro code       0x2eec   0x514  nmasic.o [1]
+  .text              ro code       0x3400    0x3e  nm_common.o [1]
+  .text              ro code       0x3440   0x874  m2m_wifi.o [1]
+  .text              ro code       0x3cb4   0x2a8  nmdrv.o [1]
+  .text              ro code       0x3f5c   0x110  spi_flash.o [1]
+  .text              ro code       0x406c   0x6b4  driver_init.o [1]
+  .text              ro code       0x4720    0x3c  hpl_init.o [1]
+  .text              ro code       0x475c    0xb6  hal_usart_sync.o [1]
+  .text              ro code       0x4814    0x5c  hpl_pm.o [1]
+  .text              ro code       0x4870   0x11c  hpl_sysctrl.o [1]
+  .text              ro code       0x498c    0x68  hpl_gclk.o [1]
+  .text              ro code       0x49f4   0x164  main.o [1]
+  .text              ro code       0x4b58    0x28  memcmp.o [4]
+  .text              ro code       0x4b80     0xc  atmel_start.o [1]
+  .text              ro code       0x4b8c    0x3c  winc_init.o [1]
+  .text              ro code       0x4bc8    0x18  stdio_start.o [1]
+  .text              ro code       0x4be0    0x2c  stdio_io.o [1]
+  .rodata            const         0x4c0c   0x100  nmspi.o [1]
+  .text              ro code       0x4d0c    0x7c  startup_samd21.o [1]
+  .text              ro code       0x4d88     0xc  cstartup_M.o [4]
+  .text              ro code       0x4d94    0x1e  cmain.o [4]
+  .text              ro code       0x4db4    0x28  data_init.o [4]
+  .text              ro code       0x4ddc     0x8  exit.o [2]
+  .text              ro code       0x4de4     0xa  cexit.o [4]
+  .rodata            const         0x4df0    0x50  nmspi.o [1]
+  .rodata            const         0x4e40    0x48  m2m_hif.o [1]
+  .rodata            const         0x4e88    0x48  m2m_hif.o [1]
+  .rodata            const         0x4ed0    0x44  m2m_hif.o [1]
+  .rodata            const         0x4f14    0x40  m2m_hif.o [1]
+  .text              ro code       0x4f54    0x3c  zero_init3.o [4]
+  .rodata            const         0x4f90    0x38  m2m_hif.o [1]
+  .rodata            const         0x4fc8    0x38  nmspi.o [1]
+  .rodata            const         0x5000    0x38  nmspi.o [1]
+  .rodata            const         0x5038    0x38  nmspi.o [1]
+  .rodata            const         0x5070    0x38  nmspi.o [1]
+  .rodata            const         0x50a8    0x38  nmspi.o [1]
+  .rodata            const         0x50e0    0x38  nmspi.o [1]
+  .text              ro code       0x5118    0x38  write.o [1]
+  .rodata            const         0x5150    0x34  nmspi.o [1]
+  .rodata            const         0x5184    0x34  nmspi.o [1]
+  .rodata            const         0x51b8    0x34  nmspi.o [1]
+  .rodata            const         0x51ec    0x34  nmspi.o [1]
+  .rodata            const         0x5220    0x34  nmspi.o [1]
+  .rodata            const         0x5254    0x34  nmspi.o [1]
+  .rodata            const         0x5288    0x30  nmspi.o [1]
+  .rodata            const         0x52b8    0x30  nmspi.o [1]
+  .rodata            const         0x52e8    0x30  nmspi.o [1]
+  .rodata            const         0x5318    0x30  nmspi.o [1]
+  .rodata            const         0x5348    0x30  nmspi.o [1]
+  .text              ro code       0x5378    0x30  copy_init3.o [4]
+  .rodata            const         0x53a8    0x2c  m2m_hif.o [1]
+  .rodata            const         0x53d4    0x2c  nmspi.o [1]
+  .rodata            const         0x5400    0x2c  nmspi.o [1]
+  .rodata            const         0x542c    0x2c  nmspi.o [1]
+  .rodata            const         0x5458    0x28  m2m_hif.o [1]
+  .rodata            const         0x5480    0x28  m2m_wifi.o [1]
+  .rodata            const         0x54a8    0x28  nmspi.o [1]
+  .rodata            const         0x54d0    0x28  nmspi.o [1]
+  .rodata            const         0x54f8    0x28  nmspi.o [1]
+  .rodata            const         0x5520    0x24  m2m_hif.o [1]
+  .rodata            const         0x5544    0x24  m2m_hif.o [1]
+  .rodata            const         0x5568    0x24  m2m_hif.o [1]
+  .rodata            const         0x558c    0x24  m2m_hif.o [1]
+  .rodata            const         0x55b0    0x24  m2m_hif.o [1]
+  .rodata            const         0x55d4    0x24  m2m_wifi.o [1]
+  .rodata            const         0x55f8    0x24  nmdrv.o [1]
+  .iar.init_table    const         0x561c    0x24  - Linker created -
+  .rodata            const         0x5640    0x20  m2m_hif.o [1]
+  .rodata            const         0x5660    0x20  m2m_hif.o [1]
+  .rodata            const         0x5680    0x20  m2m_hif.o [1]
+  .rodata            const         0x56a0    0x20  m2m_wifi.o [1]
+  .rodata            const         0x56c0    0x20  nmdrv.o [1]
+  .rodata            const         0x56e0    0x20  nmdrv.o [1]
+  .rodata            const         0x5700    0x20  nmspi.o [1]
+  .rodata            const         0x5720    0x20  nmspi.o [1]
+  .text              ro code       0x5740    0x1e  putchar.o [2]
+  .rodata            const         0x5760    0x1c  m2m_hif.o [1]
+  .rodata            const         0x577c    0x1c  m2m_wifi.o [1]
+  .rodata            const         0x5798    0x1c  m2m_wifi.o [1]
+  .rodata            const         0x57b4    0x1c  m2m_wifi.o [1]
+  .rodata            const         0x57d0    0x1c  m2m_wifi.o [1]
+  .rodata            const         0x57ec    0x1c  m2m_wifi.o [1]
+  .rodata            const         0x5808    0x1c  m2m_wifi.o [1]
+  .rodata            const         0x5824    0x1c  main.o [1]
+  .rodata            const         0x5840    0x1c  nmasic.o [1]
+  .rodata            const         0x585c    0x1c  nmasic.o [1]
+  .rodata            const         0x5878    0x1c  nmdrv.o [1]
+  .rodata            const         0x5894    0x1c  nmdrv.o [1]
+  .rodata            const         0x58b0    0x1c  nmspi.o [1]
+  .rodata            const         0x58cc    0x1c  nmspi.o [1]
+  .rodata            const         0x58e8    0x18  m2m_hif.o [1]
+  .rodata            const         0x5900    0x18  m2m_hif.o [1]
+  .rodata            const         0x5918    0x18  m2m_wifi.o [1]
+  .rodata            const         0x5930    0x18  m2m_wifi.o [1]
+  .rodata            const         0x5948    0x18  main.o [1]
+  .rodata            const         0x5960    0x18  main.o [1]
+  .rodata            const         0x5978    0x18  nmasic.o [1]
+  .rodata            const         0x5990    0x18  nmasic.o [1]
+  .rodata            const         0x59a8    0x18  nmspi.o [1]
+  .text              ro code       0x59c0    0x16  xprout.o [2]
+  Initializer bytes  const         0x59d8    0x18  <for P2-1>
+  .rodata            const         0x59f0    0x14  hpl_sercom.o [1]
+  .rodata            const         0x5a04    0x14  m2m_hif.o [1]
+  .rodata            const         0x5a18    0x14  m2m_hif.o [1]
+  .rodata            const         0x5a2c    0x14  m2m_hif.o [1]
+  .rodata            const         0x5a40    0x14  m2m_wifi.o [1]
+  .rodata            const         0x5a54    0x14  m2m_wifi.o [1]
+  .rodata            const         0x5a68    0x14  m2m_wifi.o [1]
+  .rodata            const         0x5a7c    0x14  m2m_wifi.o [1]
+  .rodata            const         0x5a90    0x14  m2m_wifi.o [1]
+  .rodata            const         0x5aa4    0x14  m2m_wifi.o [1]
+  .rodata            const         0x5ab8    0x14  main.o [1]
+  .rodata            const         0x5acc    0x14  nm_bus_wrapper.o [1]
+  .rodata            const         0x5ae0    0x14  nm_bus_wrapper.o [1]
+  .rodata            const         0x5af4    0x14  nmasic.o [1]
+  .rodata            const         0x5b08    0x14  nmdrv.o [1]
+  .rodata            const         0x5b1c    0x14  nmspi.o [1]
+  .rodata            const         0x5b30    0x10  m2m_hif.o [1]
+  .rodata            const         0x5b40    0x10  m2m_hif.o [1]
+  .rodata            const         0x5b50    0x10  m2m_wifi.o [1]
+  .rodata            const         0x5b60    0x10  m2m_wifi.o [1]
+  .rodata            const         0x5b70    0x10  main.o [1]
+  .rodata            const         0x5b80    0x10  nm_bus_wrapper.o [1]
+  .rodata            const         0x5b90    0x10  nmdrv.o [1]
+  .rodata            const         0x5ba0    0x10  nmdrv.o [1]
+  .rodata            const         0x5bb0    0x10  nmspi.o [1]
+  .rodata            const         0x5bc0    0x10  nmspi.o [1]
+  .rodata            const         0x5bd0    0x10  nmspi.o [1]
+  .rodata            const         0x5be0    0x10  nmspi.o [1]
+  .rodata            const         0x5bf0    0x10  nmspi.o [1]
+  .rodata            const         0x5c00    0x10  nmspi.o [1]
+  .rodata            const         0x5c10     0xc  m2m_hif.o [1]
+  .rodata            const         0x5c1c     0xc  m2m_hif.o [1]
+  .rodata            const         0x5c28     0xc  m2m_hif.o [1]
+  .rodata            const         0x5c34     0xc  m2m_hif.o [1]
+  .rodata            const         0x5c40     0xc  m2m_wifi.o [1]
+  .rodata            const         0x5c4c     0xc  m2m_wifi.o [1]
+  .rodata            const         0x5c58     0xc  m2m_wifi.o [1]
+  .rodata            const         0x5c64     0xc  m2m_wifi.o [1]
+  .rodata            const         0x5c70     0xc  m2m_wifi.o [1]
+  .rodata            const         0x5c7c     0xc  main.o [1]
+  .rodata            const         0x5c88     0xc  main.o [1]
+  .rodata            const         0x5c94     0xc  nmasic.o [1]
+  .rodata            const         0x5ca0     0xc  nmasic.o [1]
+  .rodata            const         0x5cac     0xc  nmasic.o [1]
+  .rodata            const         0x5cb8     0xc  nmdrv.o [1]
+  .rodata            const         0x5cc4     0xc  nmdrv.o [1]
+  .rodata            const         0x5cd0     0xc  nmspi.o [1]
+  .rodata            const         0x5cdc     0xc  nmspi.o [1]
+  .rodata            const         0x5ce8     0xc  nmspi.o [1]
+  .rodata            const         0x5cf4     0x8  hpl_eic.o [1]
+  .rodata            const         0x5cfc     0x8  m2m_hif.o [1]
+  .rodata            const         0x5d04     0x8  main.o [1]
+  .rodata            const         0x5d0c     0x8  nmdrv.o [1]
+  .rodata            const         0x5d14     0x8  nmspi.o [1]
+  .rodata            const         0x5d1c     0x0  zero_init3.o [4]
+  .rodata            const         0x5d1c     0x0  copy_init3.o [4]
+                                 - 0x5d1c  0x5c68
+
+"P2", part 1 of 2:                           0x18
+  P2-1                        0x2000'0000    0x16  <Init block>
+    .data            inited   0x2000'0000    0x14  hpl_sercom.o [1]
+    .data            inited   0x2000'0014     0x2  nm_bus_wrapper.o [1]
+                            - 0x2000'0016    0x16
+
+"P2", part 2 of 2:                           0x90
+  .bss               zero     0x2000'0018    0x2c  m2m_hif.o [1]
+  .bss               zero     0x2000'0044    0x18  driver_init.o [1]
+  .bss               zero     0x2000'005c     0xc  driver_init.o [1]
+  .bss               zero     0x2000'0068     0x8  hal_ext_irq.o [1]
+  .bss               zero     0x2000'0070     0x8  m2m_wifi.o [1]
+  .bss               zero     0x2000'0078     0x4  hal_delay.o [1]
+  .bss               zero     0x2000'007c     0x4  hpl_eic.o [1]
+  .bss               zero     0x2000'0080     0x4  m2m_wifi.o [1]
+  .bss               zero     0x2000'0084     0x4  m2m_wifi.o [1]
+  .bss               zero     0x2000'0088     0x4  nm_bsp.o [1]
+  .bss               zero     0x2000'008c     0x4  nm_bus_wrapper.o [1]
+  .bss               zero     0x2000'0090     0x4  nm_bus_wrapper.o [1]
+  .bss               zero     0x2000'0094     0x4  nmasic.o [1]
+  .bss               zero     0x2000'0098     0x4  stdio_io.o [1]
+  .bss               zero     0x2000'009c     0x4  xfail_s.o [2]
+  .bss               zero     0x2000'00a0     0x1  m2m_wifi.o [1]
+  .bss               zero     0x2000'00a1     0x1  m2m_wifi.o [1]
+  .bss               zero     0x2000'00a2     0x1  main.o [1]
+  .bss               zero     0x2000'00a3     0x1  main.o [1]
+  .bss               zero     0x2000'00a4     0x1  nmspi.o [1]
+                            - 0x2000'00a5    0x8d
+
+"A1":                                      0x2000
+  CSTACK                      0x2000'6000  0x2000  <Block>
+    CSTACK           uninit   0x2000'6000  0x2000  <Block tail>
+                            - 0x2000'8000  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x5d1c     0x3'ffff  0x3'a2e4
+  0x2000'00a8  0x2000'5fff    0x5f58
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x8d:
+          0x2000'0018  0x8d
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x18 (109% of destination):
+               0x59d8  0x18
+    1 destination range, total size 0x16:
+          0x2000'0000  0x16
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+F:\rajeev\ProjectFolder\New folder\AP Scan Demo WINC1500\Debug\Obj: [1]
+    atmel_start.o                12
+    driver_init.o             1 716                36
+    hal_delay.o                  44                 4
+    hal_ext_irq.o               512                 8
+    hal_io.o                     44
+    hal_spi_m_sync.o            176
+    hal_usart_sync.o            182
+    hpl_core_m0plus_base.o      172
+    hpl_eic.o                   764        8        4
+    hpl_gclk.o                  104
+    hpl_init.o                   60
+    hpl_pm.o                     92
+    hpl_sercom.o              1 644       40       20
+    hpl_sysctrl.o               284
+    hpl_systick.o                46
+    m2m_hif.o                 2 252      916       44
+    m2m_wifi.o                2 164      536       18
+    main.o                      356      144        2
+    nm_bsp.o                    292                 4
+    nm_bus_wrapper.o            378       58       10
+    nm_common.o                  62
+    nmasic.o                  1 300      160        4
+    nmbus.o                     336
+    nmdrv.o                     680      240
+    nmspi.o                   3 368    1 780        1
+    spi_flash.o                 272
+    startup_samd21.o            124      180
+    stdio_io.o                   44                 4
+    stdio_start.o                24
+    winc_init.o                  60
+    write.o                      56
+    -------------------------------------------------
+    Total:                   17 620    4 062      159
+
+dl6M_tln.a: [2]
+    abort.o                      10
+    exit.o                        8
+    printf.o                     40
+    putchar.o                    30
+    xfail_s.o                    72                 4
+    xprintfsmall_nomb.o       1 308
+    xprout.o                     22
+    -------------------------------------------------
+    Total:                    1 490                 4
+
+m6M_tl.a: [3]
+    -------------------------------------------------
+    Total:
+
+rt6M_tl.a: [4]
+    ABImemset.o                  82
+    I32DivModFast.o             174
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 48
+    cstartup_M.o                 12
+    data_init.o                  40
+    memchr.o                     24
+    memcmp.o                     40
+    strchr.o                     22
+    strlen.o                     16
+    uread4.o                     22
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      582
+
+shb_l.a: [5]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         18        4
+    Linker created                        40    8 192
+-----------------------------------------------------
+    Grand Total:             19 730    4 106    8 355
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0x561c          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x5640          --   Gb  - Linker created -
+.intvec$$Base                   0x0          --   Gb  - Linker created -
+.intvec$$Limit                 0xb4          --   Gb  - Linker created -
+?main                        0x4d95         Code  Gb  cmain.o [4]
+CSTACK$$Base            0x2000'6000          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'8000          --   Gb  - Linker created -
+Dummy_Handler                0x4d85    0x4  Code  Gb  startup_samd21.o [1]
+EDBG_UART               0x2000'005c    0xc  Data  Gb  driver_init.o [1]
+EDBG_UART_CLOCK_init         0x4621   0x14  Code  Gb  driver_init.o [1]
+EDBG_UART_PORT_init          0x460d   0x14  Code  Gb  driver_init.o [1]
+EDBG_UART_init               0x4635   0x16  Code  Gb  driver_init.o [1]
+EIC_Handler                  0x1aa9  0x102  Code  Gb  hpl_eic.o [1]
+LoadInt                      0x13c1   0x5a  Code  Lc  xprintfsmall_nomb.o [2]
+Region$$Table$$Base          0x561c          --   Gb  - Linker created -
+Region$$Table$$Limit         0x5640          --   Gb  - Linker created -
+Reset_Handler                0x4d1b   0x50  Code  Gb  startup_samd21.o [1]
+WINC_IRQ_init                0x456f   0x2a  Code  Gb  driver_init.o [1]
+WINC_SPI                0x2000'0044   0x18  Data  Gb  driver_init.o [1]
+WINC_SPI_CLOCK_init          0x45e5   0x14  Code  Gb  driver_init.o [1]
+WINC_SPI_PORT_init           0x4599   0x4c  Code  Gb  driver_init.o [1]
+WINC_SPI_init                0x45f9   0x14  Code  Gb  driver_init.o [1]
+_LitobSmallNoMb              0x155d   0xea  Code  Lc  xprintfsmall_nomb.o [2]
+_PrintfSmallNoMb             0x1181  0x232  Code  Gb  xprintfsmall_nomb.o [2]
+_Prout                       0x59c1   0x16  Code  Gb  xprout.o [2]
+_PutcharsSmallNoMb           0x164d   0x34  Code  Lc  xprintfsmall_nomb.o [2]
+_PutfldSmallNoMb             0x141d  0x140  Code  Lc  xprintfsmall_nomb.o [2]
+__NVIC_ClearPendingIRQ       0x1901   0x18  Code  Lc  hpl_eic.o [1]
+__NVIC_DisableIRQ            0x18e1   0x20  Code  Lc  hpl_eic.o [1]
+__NVIC_EnableIRQ             0x18c9   0x18  Code  Lc  hpl_eic.o [1]
+__aeabi_idiv0                0x24b9         Code  Gb  IntDivZer.o [4]
+__aeabi_memclr4              0x247d         Code  Gb  ABImemset.o [4]
+__aeabi_memclr8              0x247d         Code  Gb  ABImemset.o [4]
+__aeabi_memset               0x245d         Code  Gb  ABImemset.o [4]
+__aeabi_uidiv                0x22b9         Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod             0x22b9         Code  Gb  I32DivModFast.o [4]
+__aeabi_uread4               0x2445         Code  Gb  uread4.o [4]
+__cmain                      0x4d95         Code  Gb  cmain.o [4]
+__exit                       0x24bd   0x14  Code  Gb  exit.o [5]
+__iar_Fail_s                 0x2249   0x22  Code  Gb  xfail_s.o [2]
+__iar_Memset4_word           0x2481         Code  Gb  ABImemset.o [4]
+__iar_Memset_word            0x2469         Code  Gb  ABImemset.o [4]
+__iar_copy_init3             0x5379   0x30  Code  Gb  copy_init3.o [4]
+__iar_data_init3             0x4db5   0x28  Code  Gb  data_init.o [4]
+__iar_program_start          0x4d89         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3             0x4f55   0x3c  Code  Gb  zero_init3.o [4]
+__low_level_init             0x4d0d    0xe  Code  Gb  startup_samd21.o [1]
+__vector_table                  0x0   0xb4  Data  Gb  startup_samd21.o [1]
+__write                      0x5119   0x38  Code  Gb  write.o [1]
+_call_main                   0x4da1         Code  Gb  cmain.o [4]
+_delay_cycles                0x2391    0x6  Code  Gb  hpl_systick.o [1]
+_delay_init                  0x2377    0xc  Code  Gb  hpl_systick.o [1]
+_exit                        0x4de5         Code  Gb  cexit.o [4]
+_ext_irq_enable              0x1a35   0x74  Code  Gb  hpl_eic.o [1]
+_ext_irq_init                0x19b3   0x82  Code  Gb  hpl_eic.o [1]
+_gclk_enable_channel         0x4425   0x2c  Code  Lc  driver_init.o [1]
+_gclk_init_generators_by_fref
+                             0x49b1   0x36  Code  Gb  hpl_gclk.o [1]
+_get_cycles_for_ms           0x2425   0x12  Code  Gb  hpl_core_m0plus_base.o [1]
+_get_cycles_for_ms_internal
+                             0x2399   0x8c  Code  Lc  hpl_core_m0plus_base.o [1]
+_get_sercom_index            0x1dbb   0x38  Code  Lc  hpl_sercom.o [1]
+_gpio_set_direction          0x41d5   0xb8  Code  Lc  driver_init.o [1]
+_gpio_set_level              0x428d   0x30  Code  Lc  driver_init.o [1]
+_gpio_set_level               0xfa5   0x30  Code  Lc  nm_bsp.o [1]
+_gpio_set_level               0xe01   0x30  Code  Lc  nm_bus_wrapper.o [1]
+_gpio_set_pin_function       0x4349   0x6e  Code  Lc  driver_init.o [1]
+_gpio_set_pin_pull_mode
+                             0x42bd   0x8c  Code  Lc  driver_init.o [1]
+_init_chip                   0x4733   0x24  Code  Gb  hpl_init.o [1]
+_main                        0x4daf         Code  Gb  cmain.o [4]
+_map                         0x5cf4    0x8  Data  Lc  hpl_eic.o [1]
+_pm_enable_bus_clock         0x44f1   0x7e  Code  Lc  driver_init.o [1]
+_pm_get_ahb_index            0x4451   0x4a  Code  Lc  driver_init.o [1]
+_pm_get_apbb_index           0x449b   0x48  Code  Lc  driver_init.o [1]
+_pm_init                     0x4845   0x26  Code  Gb  hpl_pm.o [1]
+_sercom_get_hardware_index
+                             0x1db1    0xa  Code  Lc  hpl_sercom.o [1]
+_spi_err_check               0x2165   0x24  Code  Lc  hpl_sercom.o [1]
+_spi_get_regs                0x1fc1   0x3e  Code  Lc  hpl_sercom.o [1]
+_spi_load_regs_master        0x1f31   0x3e  Code  Lc  hpl_sercom.o [1]
+_spi_load_regs_slave         0x1f6f   0x52  Code  Lc  hpl_sercom.o [1]
+_spi_m_sync_enable           0x20b7    0xc  Code  Gb  hpl_sercom.o [1]
+_spi_m_sync_init             0x2015   0xa2  Code  Gb  hpl_sercom.o [1]
+_spi_m_sync_io_read          0x1115   0x22  Code  Lc  hal_spi_m_sync.o [1]
+_spi_m_sync_io_write         0x1137   0x22  Code  Lc  hal_spi_m_sync.o [1]
+_spi_m_sync_trans            0x2191   0xa0  Code  Gb  hpl_sercom.o [1]
+_spi_rx_check_and_receive
+                             0x20dd   0x42  Code  Lc  hpl_sercom.o [1]
+_spi_sync_enable             0x1f11   0x20  Code  Lc  hpl_sercom.o [1]
+_spi_tx_check_and_send       0x211f   0x46  Code  Lc  hpl_sercom.o [1]
+_spi_wait_bus_idle           0x20c3   0x1a  Code  Lc  hpl_sercom.o [1]
+_sysctrl_init_referenced_generators
+                             0x4905   0x76  Code  Gb  hpl_sysctrl.o [1]
+_sysctrl_init_sources        0x48e7   0x1e  Code  Gb  hpl_sysctrl.o [1]
+_system_time_init            0x2369    0xe  Code  Gb  hpl_systick.o [1]
+_usart_init                  0x1df3  0x112  Code  Lc  hpl_sercom.o [1]
+_usart_sync_enable           0x1d5f    0xc  Code  Gb  hpl_sercom.o [1]
+_usart_sync_init             0x1d4f   0x10  Code  Gb  hpl_sercom.o [1]
+_usart_sync_is_byte_received
+                             0x1da5    0xc  Code  Gb  hpl_sercom.o [1]
+_usart_sync_is_ready_to_send
+                             0x1d8d    0xc  Code  Gb  hpl_sercom.o [1]
+_usart_sync_is_transmit_done
+                             0x1d99    0xc  Code  Gb  hpl_sercom.o [1]
+_usart_sync_read_byte        0x1d7f    0xe  Code  Gb  hpl_sercom.o [1]
+_usart_sync_write_byte       0x1d6b   0x14  Code  Gb  hpl_sercom.o [1]
+_usarts                 0x2000'0000   0x14  Data  Lc  hpl_sercom.o [1]
+abort                        0x24af    0xa  Code  Gb  abort.o [2]
+atmel_start_init             0x4b81    0xc  Code  Gb  atmel_start.o [1]
+callback                0x2000'007c    0x4  Data  Lc  hpl_eic.o [1]
+chip_apply_conf              0x2eed   0x40  Code  Gb  nmasic.o [1]
+chip_deinit                  0x3339   0x6a  Code  Gb  nmasic.o [1]
+chip_deinit::__FUNCTION__
+                             0x5cac    0xc  Data  Lc  nmasic.o [1]
+chip_isr                      0xff3   0x10  Code  Lc  nm_bsp.o [1]
+chip_sleep                   0x3039   0x8a  Code  Gb  nmasic.o [1]
+chip_wake                    0x30c3   0xdc  Code  Gb  nmasic.o [1]
+chip_wake::__FUNCTION__
+                             0x5c94    0xc  Data  Lc  nmasic.o [1]
+crc7                           0xf7   0x26  Code  Lc  nmspi.o [1]
+crc7_byte                      0xe9    0xe  Code  Lc  nmspi.o [1]
+crc7_syndrome_table          0x4c0c  0x100  Data  Lc  nmspi.o [1]
+delay_driver_init            0x464b    0xa  Code  Gb  driver_init.o [1]
+delay_init                   0x169d   0x10  Code  Gb  hal_delay.o [1]
+delay_ms                     0x16ad   0x18  Code  Gb  hal_delay.o [1]
+egstrNmBusCapabilities  0x2000'0014    0x2  Data  Gb  nm_bus_wrapper.o [1]
+enable_interrupts            0x2f2d   0x6c  Code  Gb  nmasic.o [1]
+exit                         0x4ddd    0x8  Code  Gb  exit.o [2]
+ext_irq_init                 0x16c9   0x36  Code  Gb  hal_ext_irq.o [1]
+ext_irq_register             0x16ff  0x148  Code  Gb  hal_ext_irq.o [1]
+ext_irqs                0x2000'0068    0x8  Data  Lc  hal_ext_irq.o [1]
+ffs                          0x1993   0x20  Code  Lc  hpl_eic.o [1]
+gpfAppMonCb             0x2000'0084    0x4  Data  Lc  m2m_wifi.o [1]
+gpfAppWifiCb            0x2000'0080    0x4  Data  Lc  m2m_wifi.o [1]
+gpfIsr                  0x2000'0088    0x4  Data  Lc  nm_bsp.o [1]
+gpio_set_pin_direction       0x43e1   0x1e  Code  Lc  driver_init.o [1]
+gpio_set_pin_function        0x43d1   0x10  Code  Lc  driver_init.o [1]
+gpio_set_pin_level           0x43ff   0x1e  Code  Lc  driver_init.o [1]
+gpio_set_pin_level            0xfd5   0x1e  Code  Lc  nm_bsp.o [1]
+gpio_set_pin_level            0xe31   0x1e  Code  Lc  nm_bus_wrapper.o [1]
+gpio_set_pin_pull_mode       0x43b7   0x1a  Code  Lc  driver_init.o [1]
+gstrHifCxt              0x2000'0018   0x2c  Data  Gb  m2m_hif.o [1]
+gstrMgmtCtrl            0x2000'0070    0x8  Data  Lc  m2m_wifi.o [1]
+gu8ChNum                0x2000'00a0    0x1  Data  Lc  m2m_wifi.o [1]
+gu8Crc_off              0x2000'00a4    0x1  Data  Lc  nmspi.o [1]
+gu8scanInProgress       0x2000'00a1    0x1  Data  Lc  m2m_wifi.o [1]
+hardware                0x2000'0078    0x4  Data  Lc  hal_delay.o [1]
+hif_chip_sleep               0x256b   0x30  Code  Gb  m2m_hif.o [1]
+hif_chip_sleep_sc            0x2557   0x14  Code  Gb  m2m_hif.o [1]
+hif_chip_wake                0x251f   0x38  Code  Gb  m2m_hif.o [1]
+hif_handle_isr               0x2b3d   0x84  Code  Gb  m2m_hif.o [1]
+hif_handle_isr::__FUNCTION__
+                             0x5b30   0x10  Data  Lc  m2m_hif.o [1]
+hif_init                     0x259b   0x20  Code  Gb  m2m_hif.o [1]
+hif_isr                      0x2801  0x316  Code  Lc  m2m_hif.o [1]
+hif_isr::__FUNCTION__        0x5cfc    0x8  Data  Lc  m2m_hif.o [1]
+hif_receive                  0x2bd5   0xe6  Code  Gb  m2m_hif.o [1]
+hif_receive::__FUNCTION__
+                             0x5c28    0xc  Data  Lc  m2m_hif.o [1]
+hif_register_cb              0x2cd9   0x76  Code  Gb  m2m_hif.o [1]
+hif_register_cb::__FUNCTION__
+                             0x5b40   0x10  Data  Lc  m2m_hif.o [1]
+hif_send                     0x25c5  0x20c  Code  Gb  m2m_hif.o [1]
+hif_send::__FUNCTION__       0x5c10    0xc  Data  Lc  m2m_hif.o [1]
+hif_set_rx_done              0x24db   0x42  Code  Lc  m2m_hif.o [1]
+hri_eic_clear_INTEN_reg
+                             0x1939    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_clear_INTFLAG_reg
+                             0x192d    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_get_CTRL_reg         0x1951   0x14  Code  Lc  hpl_eic.o [1]
+hri_eic_read_INTEN_reg       0x1935    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_read_INTFLAG_reg
+                             0x1929    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_set_CTRL_ENABLE_bit
+                             0x193d   0x14  Code  Lc  hpl_eic.o [1]
+hri_eic_set_INTEN_reg        0x1931    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_wait_for_sync        0x1919   0x10  Code  Lc  hpl_eic.o [1]
+hri_eic_write_CONFIG_reg
+                             0x1981   0x12  Code  Lc  hpl_eic.o [1]
+hri_eic_write_CTRL_reg       0x1965   0x10  Code  Lc  hpl_eic.o [1]
+hri_eic_write_EVCTRL_reg
+                             0x1979    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_write_NMICTRL_reg
+                             0x1975    0x4  Code  Lc  hpl_eic.o [1]
+hri_eic_write_WAKEUP_reg
+                             0x197d    0x4  Code  Lc  hpl_eic.o [1]
+hri_gclk_get_STATUS_SYNCBUSY_bit
+                             0x4871   0x14  Code  Lc  hpl_sysctrl.o [1]
+hri_gclk_wait_for_sync       0x498d   0x10  Code  Lc  hpl_gclk.o [1]
+hri_gclk_write_CLKCTRL_reg
+                             0x406d    0x4  Code  Lc  driver_init.o [1]
+hri_gclk_write_CLKCTRL_reg
+                             0x4885    0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_gclk_write_GENCTRL_reg
+                             0x499d   0x10  Code  Lc  hpl_gclk.o [1]
+hri_gclk_write_GENDIV_reg
+                             0x49ad    0x4  Code  Lc  hpl_gclk.o [1]
+hri_nvmctrl_set_CTRLB_RWS_bf
+                             0x4721   0x12  Code  Lc  hpl_init.o [1]
+hri_pm_set_APBASEL_APBADIV_bf
+                             0x4821    0xc  Code  Lc  hpl_pm.o [1]
+hri_pm_set_APBBSEL_APBBDIV_bf
+                             0x482d    0xc  Code  Lc  hpl_pm.o [1]
+hri_pm_set_APBCSEL_APBCDIV_bf
+                             0x4839    0xc  Code  Lc  hpl_pm.o [1]
+hri_pm_set_CPUSEL_CPUDIV_bf
+                             0x4815    0xc  Code  Lc  hpl_pm.o [1]
+hri_port_clear_DIR_reg       0x4083   0x12  Code  Lc  driver_init.o [1]
+hri_port_clear_OUT_reg       0x40a7   0x12  Code  Lc  driver_init.o [1]
+hri_port_clear_OUT_reg        0xf93   0x12  Code  Lc  nm_bsp.o [1]
+hri_port_clear_OUT_reg        0xdef   0x12  Code  Lc  nm_bus_wrapper.o [1]
+hri_port_clear_PINCFG_PULLEN_bit
+                             0x4191   0x32  Code  Lc  driver_init.o [1]
+hri_port_set_DIR_reg         0x4071   0x12  Code  Lc  driver_init.o [1]
+hri_port_set_OUT_reg         0x4095   0x12  Code  Lc  driver_init.o [1]
+hri_port_set_OUT_reg          0xf81   0x12  Code  Lc  nm_bsp.o [1]
+hri_port_set_OUT_reg          0xddd   0x12  Code  Lc  nm_bus_wrapper.o [1]
+hri_port_set_PINCFG_PULLEN_bit
+                             0x415f   0x32  Code  Lc  driver_init.o [1]
+hri_port_write_PINCFG_PMUXEN_bit
+                             0x412b   0x34  Code  Lc  driver_init.o [1]
+hri_port_write_PMUX_PMUXE_bf
+                             0x40b9   0x38  Code  Lc  driver_init.o [1]
+hri_port_write_PMUX_PMUXO_bf
+                             0x40f1   0x3a  Code  Lc  driver_init.o [1]
+hri_port_write_WRCONFIG_reg
+                             0x41c3   0x12  Code  Lc  driver_init.o [1]
+hri_sercomspi_clear_CTRLA_ENABLE_bit
+                             0x1c6d   0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_clear_INTFLAG_reg
+                             0x1c13    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_clear_STATUS_reg
+                             0x1d4b    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_get_CTRLA_ENABLE_bit
+                             0x1c4f   0x1e  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_get_CTRLA_reg
+                             0x1c83   0x14  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_get_INTFLAG_reg
+                             0x1c05    0xa  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_is_syncing
+                             0x1bd1   0x14  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_read_DATA_reg
+                             0x1d33    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_read_INTFLAG_reg
+                             0x1c0f    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_set_CTRLA_ENABLE_bit
+                             0x1c39   0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_wait_for_sync
+                             0x1bc5    0xc  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_write_ADDR_reg
+                             0x1d2b    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_write_BAUD_reg
+                             0x1d1f    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_write_CTRLA_reg
+                             0x1c97   0x12  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_write_CTRLB_reg
+                             0x1cfb   0x12  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_write_DATA_reg
+                             0x1d2f    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomspi_write_DBGCTRL_reg
+                             0x1d3f    0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_clear_CTRLA_ENABLE_bit
+                             0x1cbf   0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_CTRLA_reg
+                             0x1cd5   0x14  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_interrupt_DRE_bit
+                             0x1c17    0xa  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_interrupt_RXC_bit
+                             0x1c2d    0xc  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_get_interrupt_TXC_bit
+                             0x1c21    0xc  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_is_syncing
+                             0x1bf1   0x14  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_read_DATA_reg
+                             0x1d3b    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_set_CTRLA_ENABLE_bit
+                             0x1ca9   0x16  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_wait_for_sync
+                             0x1be5    0xc  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_BAUD_reg
+                             0x1d23    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_CTRLA_reg
+                             0x1ce9   0x12  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_CTRLB_reg
+                             0x1d0d   0x12  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_DATA_reg
+                             0x1d37    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_DBGCTRL_reg
+                             0x1d45    0x6  Code  Lc  hpl_sercom.o [1]
+hri_sercomusart_write_RXPL_reg
+                             0x1d27    0x4  Code  Lc  hpl_sercom.o [1]
+hri_sysctrl_clear_OSC32K_ENABLE_bit
+                             0x48b7    0xa  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_DFLLCTRL_MODE_bit
+                             0x48c1   0x1a  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_PCLKSR_DFLLRDY_bit
+                             0x4895    0xc  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_PCLKSR_XOSC32KRDY_bit
+                             0x4889    0xc  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_get_PCLKSR_reg
+                             0x48a1    0x8  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_set_OSC32K_ENABLE_bit
+                             0x48ad    0xa  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_DFLLCTRL_reg
+                             0x48db    0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_DFLLMUL_reg
+                             0x48e3    0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_DFLLVAL_reg
+                             0x48df    0x4  Code  Lc  hpl_sysctrl.o [1]
+hri_sysctrl_write_XOSC32K_reg
+                             0x48a9    0x4  Code  Lc  hpl_sysctrl.o [1]
+init_mcu                     0x441d    0x8  Code  Lc  driver_init.o [1]
+io                      0x2000'008c    0x4  Data  Gb  nm_bus_wrapper.o [1]
+io_read                      0x10bb   0x16  Code  Gb  hal_io.o [1]
+io_write                     0x10a5   0x16  Code  Gb  hal_io.o [1]
+isr                          0x24d1    0xa  Code  Lc  m2m_hif.o [1]
+m2m_hif_cb                   0x251d    0x2  Code  Lc  m2m_hif.o [1]
+m2m_memcpy                   0x3401   0x16  Code  Gb  nm_common.o [1]
+m2m_memset                   0x3417   0x12  Code  Gb  nm_common.o [1]
+m2m_strlen                   0x3429   0x16  Code  Gb  nm_common.o [1]
+m2m_wifi_cb                  0x3441  0x36e  Code  Lc  m2m_wifi.o [1]
+m2m_wifi_cb::__FUNCTION__
+                             0x5c40    0xc  Data  Lc  m2m_wifi.o [1]
+m2m_wifi_connect             0x393b   0x28  Code  Gb  m2m_wifi.o [1]
+m2m_wifi_connect_sc          0x3963  0x276  Code  Gb  m2m_wifi.o [1]
+m2m_wifi_connect_sc::__FUNCTION__
+                             0x5a68   0x14  Data  Lc  m2m_wifi.o [1]
+m2m_wifi_get_num_ap_found
+                             0x3cab    0x6  Code  Gb  m2m_wifi.o [1]
+m2m_wifi_handle_events       0x3931    0xa  Code  Gb  m2m_wifi.o [1]
+m2m_wifi_init                0x37dd  0x114  Code  Gb  m2m_wifi.o [1]
+m2m_wifi_init::__FUNCTION__
+                             0x5b50   0x10  Data  Lc  m2m_wifi.o [1]
+m2m_wifi_req_scan_result
+                             0x3c81   0x2a  Code  Gb  m2m_wifi.o [1]
+m2m_wifi_request_dhcp_client
+                             0x3bf5    0x4  Code  Gb  m2m_wifi.o [1]
+m2m_wifi_request_scan        0x3bf9   0x60  Code  Gb  m2m_wifi.o [1]
+main                         0x4b09   0x24  Code  Gb  main.o [1]
+memchr                       0x22a1   0x18  Code  Gb  memchr.o [4]
+memcmp                       0x4b59   0x28  Code  Gb  memcmp.o [4]
+nm_bsp_init                  0x1003   0x1e  Code  Gb  nm_bsp.o [1]
+nm_bsp_interrupt_ctrl        0x1089   0x1c  Code  Gb  nm_bsp.o [1]
+nm_bsp_register_isr          0x1067   0x12  Code  Gb  nm_bsp.o [1]
+nm_bsp_reset                 0x1021   0x30  Code  Gb  nm_bsp.o [1]
+nm_bsp_sleep                 0x1051   0x16  Code  Gb  nm_bsp.o [1]
+nm_bus_deinit                 0xf51    0x6  Code  Gb  nm_bus_wrapper.o [1]
+nm_bus_iface_deinit          0x2dad    0xc  Code  Gb  nmbus.o [1]
+nm_bus_iface_init            0x2d9d   0x10  Code  Gb  nmbus.o [1]
+nm_bus_init                   0xecd   0x26  Code  Gb  nm_bus_wrapper.o [1]
+nm_bus_ioctl                  0xef3   0x46  Code  Gb  nm_bus_wrapper.o [1]
+nm_bus_ioctl::__FUNCTION__
+                             0x5b80   0x10  Data  Lc  nm_bus_wrapper.o [1]
+nm_bus_reset                 0x2db9    0xa  Code  Gb  nmbus.o [1]
+nm_drv_deinit                0x3ea9   0x88  Code  Gb  nmdrv.o [1]
+nm_drv_deinit::__FUNCTION__
+                             0x5ba0   0x10  Data  Lc  nmdrv.o [1]
+nm_drv_init                  0x3dcd   0xda  Code  Gb  nmdrv.o [1]
+nm_drv_init::__FUNCTION__
+                             0x5cc4    0xc  Data  Lc  nmdrv.o [1]
+nm_get_firmware_full_info
+                             0x3cb5  0x10c  Code  Gb  nmdrv.o [1]
+nm_read_block                0x2e05   0x66  Code  Gb  nmbus.o [1]
+nm_read_reg                  0x2dc3    0xc  Code  Gb  nmbus.o [1]
+nm_read_reg_with_ret         0x2dcf   0x10  Code  Gb  nmbus.o [1]
+nm_spi_deinit                 0xcd1    0xa  Code  Gb  nmspi.o [1]
+nm_spi_init                   0xbf9   0xd8  Code  Gb  nmspi.o [1]
+nm_spi_init::__FUNCTION__
+                             0x5ce8    0xc  Data  Lc  nmspi.o [1]
+nm_spi_read                   0xa61  0x136  Code  Lc  nmspi.o [1]
+nm_spi_read::__FUNCTION__
+                             0x5cdc    0xc  Data  Lc  nmspi.o [1]
+nm_spi_read_block             0xd89   0x2a  Code  Gb  nmspi.o [1]
+nm_spi_read_reg               0xd31   0x10  Code  Gb  nmspi.o [1]
+nm_spi_read_reg_with_ret
+                              0xd41   0x24  Code  Gb  nmspi.o [1]
+nm_spi_reset                  0xbdd   0x1c  Code  Gb  nmspi.o [1]
+nm_spi_write                  0x7a5  0x132  Code  Lc  nmspi.o [1]
+nm_spi_write::__FUNCTION__
+                             0x5bf0   0x10  Data  Lc  nmspi.o [1]
+nm_spi_write_block            0xdb3   0x2a  Code  Gb  nmspi.o [1]
+nm_spi_write_reg              0xd65   0x24  Code  Gb  nmspi.o [1]
+nm_write_block               0x2e81   0x66  Code  Gb  nmbus.o [1]
+nm_write_reg                 0x2ddf   0x10  Code  Gb  nmbus.o [1]
+nmi_get_chipid               0x2f99   0x9c  Code  Gb  nmasic.o [1]
+nmi_get_chipid::chipid  0x2000'0094    0x4  Data  Lc  nmasic.o [1]
+nmi_spi_read                   0xb5   0x1a  Code  Lc  nmspi.o [1]
+nmi_spi_write                  0xcf   0x1a  Code  Lc  nmspi.o [1]
+num_founded_ap          0x2000'00a3    0x1  Data  Lc  main.o [1]
+p_nm_read_block              0x2def   0x16  Code  Lc  nmbus.o [1]
+p_nm_write_block             0x2e6b   0x16  Code  Lc  nmbus.o [1]
+printf                        0xf59   0x28  Code  Gb  printf.o [2]
+process_ext_irq              0x1847   0x7a  Code  Lc  hal_ext_irq.o [1]
+putchar                      0x5741   0x1e  Code  Gb  putchar.o [2]
+scan_request_index      0x2000'00a2    0x1  Data  Lc  main.o [1]
+sec_hand                0x2000'009c    0x4  Data  Lc  xfail_s.o [2]
+sercomspi_regs               0x59f0   0x14  Data  Lc  hpl_sercom.o [1]
+set_winc_spi_descriptor
+                              0xe4f    0x6  Code  Gb  nm_bus_wrapper.o [1]
+spi_cmd                       0x11d  0x1ac  Code  Lc  nmspi.o [1]
+spi_cmd::__FUNCTION__        0x5d14    0x8  Data  Lc  nmspi.o [1]
+spi_cmd_rsp                   0x351   0xb8  Code  Lc  nmspi.o [1]
+spi_cmd_rsp::__FUNCTION__
+                             0x5cd0    0xc  Data  Lc  nmspi.o [1]
+spi_data_read                 0x419  0x132  Code  Lc  nmspi.o [1]
+spi_data_read::__FUNCTION__
+                             0x5bc0   0x10  Data  Lc  nmspi.o [1]
+spi_data_rsp                  0x2c9   0x88  Code  Lc  nmspi.o [1]
+spi_data_rsp::__FUNCTION__
+                             0x5bb0   0x10  Data  Lc  nmspi.o [1]
+spi_data_write                0x569  0x116  Code  Lc  nmspi.o [1]
+spi_data_write::__FUNCTION__
+                             0x5bd0   0x10  Data  Lc  nmspi.o [1]
+spi_flash_enable             0x3fd9   0x72  Code  Gb  spi_flash.o [1]
+spi_flash_enter_low_power_mode
+                             0x3f5d   0x3c  Code  Lc  spi_flash.o [1]
+spi_flash_leave_low_power_mode
+                             0x3f99   0x3c  Code  Lc  spi_flash.o [1]
+spi_init_pkt_sz               0xb97   0x1c  Code  Lc  nmspi.o [1]
+spi_instance            0x2000'0090    0x4  Data  Gb  nm_bus_wrapper.o [1]
+spi_m_sync_enable            0x1109    0xc  Code  Gb  hal_spi_m_sync.o [1]
+spi_m_sync_get_io_descriptor
+                             0x1175    0xc  Code  Gb  hal_spi_m_sync.o [1]
+spi_m_sync_init              0x10d1   0x2e  Code  Gb  hal_spi_m_sync.o [1]
+spi_m_sync_transfer          0x1159   0x1c  Code  Gb  hal_spi_m_sync.o [1]
+spi_read_reg                  0x905  0x132  Code  Lc  nmspi.o [1]
+spi_read_reg::__FUNCTION__
+                             0x5c00   0x10  Data  Lc  nmspi.o [1]
+spi_rw                        0xe55   0x78  Code  Lc  nm_bus_wrapper.o [1]
+spi_write_reg                 0x69d   0xe6  Code  Lc  nmspi.o [1]
+spi_write_reg::__FUNCTION__
+                             0x5be0   0x10  Data  Lc  nmspi.o [1]
+stdio_io                0x2000'0098    0x4  Data  Lc  stdio_io.o [1]
+stdio_io_init                0x4be1    0x6  Code  Gb  stdio_io.o [1]
+stdio_io_write               0x4be7   0x22  Code  Gb  stdio_io.o [1]
+stdio_redirect_init          0x4bc9   0x12  Code  Gb  stdio_start.o [1]
+strchr                       0x2231    0x2  Code  Gb  strchr.o [4]
+strlen                       0x2291   0x10  Code  Gb  strlen.o [4]
+system_init                  0x46a5   0x7c  Code  Gb  driver_init.o [1]
+usart_sync_enable            0x478d   0x10  Code  Gb  hal_usart_sync.o [1]
+usart_sync_init              0x475d   0x28  Code  Gb  hal_usart_sync.o [1]
+usart_sync_read              0x47e3   0x30  Code  Lc  hal_usart_sync.o [1]
+usart_sync_write             0x479d   0x46  Code  Lc  hal_usart_sync.o [1]
+wait_for_bootrom             0x31c5   0xfe  Code  Gb  nmasic.o [1]
+wait_for_firmware_start
+                             0x32c3   0x64  Code  Gb  nmasic.o [1]
+wifi_cb                      0x49f5  0x114  Code  Lc  main.o [1]
+wifi_init                    0x4b8d   0x3c  Code  Gb  winc_init.o [1]
+
+
+[1] = F:\rajeev\ProjectFolder\New folder\AP Scan Demo WINC1500\Debug\Obj
+[2] = dl6M_tln.a
+[3] = m6M_tl.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  19 730 bytes of readonly  code memory
+   4 106 bytes of readonly  data memory
+   8 355 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
